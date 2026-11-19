@@ -1,0 +1,384 @@
+{
+  "success": true,
+  "website": "https://fastapi.tiangolo.com",
+  "brand": {
+    "name": "FastAPI",
+    "category": "Web Framework",
+    "summary": "A modern, high-performance Python web framework designed for building APIs, leveraging standard Python type hints for speed, developer productivity, and robust data validation."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "FastAPI is a developer-centric, high-performance framework that prioritizes speed of development and execution, standing out through its automatic documentation and type-hint integration.",
+      "competitors": [
+        {
+          "name": "Flask",
+          "website": "https://flask.palletsprojects.com",
+          "main_service": "Micro web framework",
+          "target_market": "Python developers needing simplicity",
+          "strengths": [
+            "Mature ecosystem",
+            "Extensive documentation",
+            "High flexibility"
+          ],
+          "weaknesses": [
+            "No built-in async support",
+            "Manual validation required"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Welcome to Flask — Flask Documentation (3.1.x)",
+            "meta_description": ""
+          }
+        },
+        {
+          "name": "Django",
+          "website": "https://www.djangoproject.com",
+          "main_service": "Full-stack web framework",
+          "target_market": "Enterprise and complex web applications",
+          "strengths": [
+            "Batteries-included",
+            "Built-in ORM",
+            "Strong security"
+          ],
+          "weaknesses": [
+            "Steep learning curve",
+            "Heavyweight for simple APIs"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "The web framework for perfectionists with deadlines | Django",
+            "meta_description": "The web framework for perfectionists with deadlines."
+          }
+        },
+        {
+          "name": "Node.js (Express)",
+          "website": "https://expressjs.com",
+          "main_service": "Web application framework",
+          "target_market": "JavaScript/TypeScript developers",
+          "strengths": [
+            "Massive community",
+            "Non-blocking I/O",
+            "High performance"
+          ],
+          "weaknesses": [
+            "Requires manual validation",
+            "Less type-safety by default"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Express.js · Node.js web application framework",
+            "meta_description": "Fast, unopinionated, minimalist web framework for Node.js"
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Flask",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Flask"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Main Service",
+          "your_brand": "API Framework",
+          "competitor": "Micro Framework"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Target Market",
+          "your_brand": "Modern API Developers",
+          "competitor": "General Web Devs"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Key Strength",
+          "your_brand": "Type-safety/Performance",
+          "competitor": "Simplicity"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Opportunity",
+          "your_brand": "Enterprise Adoption",
+          "competitor": "Modernization"
+        },
+        {
+          "competitor_name": "Django",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Django"
+        },
+        {
+          "competitor_name": "Django",
+          "comparison": "Main Service",
+          "your_brand": "API Framework",
+          "competitor": "Full-stack Framework"
+        },
+        {
+          "competitor_name": "Django",
+          "comparison": "Target Market",
+          "your_brand": "API-first Devs",
+          "competitor": "Enterprise Teams"
+        },
+        {
+          "competitor_name": "Django",
+          "comparison": "Key Strength",
+          "your_brand": "Development Speed",
+          "competitor": "Built-in Features"
+        },
+        {
+          "competitor_name": "Django",
+          "comparison": "Opportunity",
+          "your_brand": "Microservices",
+          "competitor": "Scalability"
+        },
+        {
+          "competitor_name": "Node.js (Express)",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Express"
+        },
+        {
+          "competitor_name": "Node.js (Express)",
+          "comparison": "Main Service",
+          "your_brand": "API Framework",
+          "competitor": "Web Framework"
+        },
+        {
+          "competitor_name": "Node.js (Express)",
+          "comparison": "Target Market",
+          "your_brand": "Python Ecosystem",
+          "competitor": "JS Ecosystem"
+        },
+        {
+          "competitor_name": "Node.js (Express)",
+          "comparison": "Key Strength",
+          "your_brand": "Automatic Docs",
+          "competitor": "Ecosystem Size"
+        },
+        {
+          "competitor_name": "Node.js (Express)",
+          "comparison": "Opportunity",
+          "your_brand": "ML/Data Services",
+          "competitor": "Frontend Integration"
+        }
+      ],
+      "strengths": [
+        "High performance",
+        "Automatic interactive documentation",
+        "Type-hint based validation",
+        "Developer productivity"
+      ],
+      "opportunities": [
+        "Expanding into enterprise ML services",
+        "Growing the CLI ecosystem via Typer",
+        "Increasing adoption in large-scale tech companies"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "best python framework for building apis",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Informational",
+        "business_relevance": "High",
+        "target_audience": "Developers",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi vs flask performance",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "High",
+        "target_audience": "Technical Decision Makers",
+        "search_volume": null
+      },
+      {
+        "query": "how to build rest api with python",
+        "platforms": [
+          "Instagram",
+          "Facebook"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Medium",
+        "target_audience": "Students/Beginners",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi dependency injection explained",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Technical",
+        "business_relevance": "High",
+        "target_audience": "Senior Engineers",
+        "search_volume": null
+      },
+      {
+        "query": "modern python web frameworks 2025",
+        "platforms": [
+          "X",
+          "LinkedIn"
+        ],
+        "intent": "Trend-seeking",
+        "business_relevance": "Medium",
+        "target_audience": "Tech Leads",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "FastAPI",
+      "secondary_keywords": [
+        "Python API framework",
+        "high performance API",
+        "Pydantic",
+        "Starlette"
+      ],
+      "long_tail_keywords": [
+        "how to build production ready python apis",
+        "fastapi automatic documentation",
+        "fastapi vs flask for machine learning"
+      ],
+      "business_keywords": [
+        "web framework",
+        "REST API",
+        "data validation",
+        "asynchronous python"
+      ],
+      "recommended_title": "FastAPI: High Performance Python Framework for APIs",
+      "meta_description": "Build high-performance, production-ready APIs with FastAPI. Fast to code, easy to learn, and based on standard Python type hints. Get started today.",
+      "supporting_content": {
+        "landing_pages": [
+          "/features",
+          "/about"
+        ],
+        "industry_pages": [
+          "/use-cases/machine-learning",
+          "/use-cases/enterprise"
+        ],
+        "faqs": [
+          "/docs/faq"
+        ],
+        "blog_topics": [
+          "Why FastAPI is the future of Python APIs",
+          "Scaling ML models with FastAPI"
+        ],
+        "location_pages": []
+      }
+    },
+    "top_services": [
+      {
+        "name": "API Development",
+        "description": "High-performance REST API framework based on standard Python types.",
+        "target_industry": "Software Development",
+        "target_customer": "Backend Developers",
+        "main_benefit": "Rapid development and automatic validation",
+        "source": "website"
+      },
+      {
+        "name": "Interactive Documentation",
+        "description": "Automatic Swagger UI and ReDoc generation.",
+        "target_industry": "Software Development",
+        "target_customer": "API Consumers",
+        "main_benefit": "Reduced documentation overhead",
+        "source": "website"
+      },
+      {
+        "name": "Data Validation",
+        "description": "Automatic data conversion and validation via Pydantic.",
+        "target_industry": "Data Engineering",
+        "target_customer": "Data Scientists",
+        "main_benefit": "Fewer bugs and type-safe code",
+        "source": "website"
+      },
+      {
+        "name": "Dependency Injection",
+        "description": "Built-in, powerful dependency injection system.",
+        "target_industry": "Software Architecture",
+        "target_customer": "System Architects",
+        "main_benefit": "Modular and testable code",
+        "source": "website"
+      },
+      {
+        "name": "CLI Tooling",
+        "description": "Support for building CLI applications via Typer.",
+        "target_industry": "DevOps",
+        "target_customer": "Tooling Engineers",
+        "main_benefit": "Consistent developer experience",
+        "source": "inferred"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Backend Developers",
+        "Software Engineers"
+      ],
+      "secondary_audience": [
+        "Data Scientists",
+        "DevOps Engineers"
+      ],
+      "industries": [
+        "Software Development",
+        "Machine Learning",
+        "FinTech"
+      ],
+      "business_types": [
+        "SaaS",
+        "Enterprise",
+        "Startups"
+      ],
+      "customer_profiles": [
+        "API-first developers",
+        "Performance-focused engineers"
+      ],
+      "geographic_focus": [
+        "Global"
+      ],
+      "customer_needs": [
+        "Speed of development",
+        "Reliability",
+        "Scalability"
+      ],
+      "interests": [
+        "Python",
+        "Open Source",
+        "API Design"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Backend Developers",
+          "business_type": "SaaS",
+          "requirement": "High performance and rapid iteration"
+        },
+        {
+          "audience": "Data Scientists",
+          "business_type": "Machine Learning",
+          "requirement": "Easy integration for model serving"
+        },
+        {
+          "audience": "Enterprise Architects",
+          "business_type": "Enterprise",
+          "requirement": "Robust, standards-based API development"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "llm_seconds": 11.13,
+    "input_tokens": 3067,
+    "output_tokens": 2097,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

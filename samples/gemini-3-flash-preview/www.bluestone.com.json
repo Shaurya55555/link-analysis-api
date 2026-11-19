@@ -1,0 +1,391 @@
+{
+  "success": true,
+  "website": "https://www.bluestone.com",
+  "brand": {
+    "name": "BlueStone",
+    "category": "Online & Omnichannel Jewellery Retail",
+    "summary": "BlueStone is a premier Indian jewellery destination offering over 8,000 unique certified gold and diamond designs through a seamless omnichannel experience including 300+ physical stores and a robust digital platform."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "BlueStone operates in the highly competitive Indian fine jewellery market, distinguishing itself through a massive design catalog, transparent pricing, and a strong 'Try-at-Home' and omnichannel store strategy.",
+      "competitors": [
+        {
+          "name": "CaratLane",
+          "website": "https://www.caratlane.com",
+          "main_service": "Modern Diamond Jewellery",
+          "target_market": "Tech-savvy millennials and urban professionals",
+          "strengths": [
+            "Titan company backing",
+            "Strong brand awareness",
+            "Extensive physical footprint"
+          ],
+          "weaknesses": [
+            "Premium pricing",
+            "Limited traditional heavy gold designs"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "CaratLane - A TATA Product | Best Store for Online Jewellery Shopping",
+            "meta_description": "CaratLane offers the best gold & diamond jewellery designs online. Check out our latest collection of rings, earrings, bangles, bracelets, necklaces at best price in India."
+          }
+        },
+        {
+          "name": "Tanishq",
+          "website": "https://www.tanishq.co.in",
+          "main_service": "Luxury Gold & Wedding Jewellery",
+          "target_market": "Mass market and high-net-worth wedding shoppers",
+          "strengths": [
+            "Highest consumer trust in India",
+            "Massive retail network",
+            "Legacy brand value"
+          ],
+          "weaknesses": [
+            "Perceived as traditional/old-fashioned",
+            "Slower digital adoption"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "Giva",
+          "website": "https://www.giva.co",
+          "main_service": "Silver & Fashion Jewellery",
+          "target_market": "Gen Z and young professionals for daily wear",
+          "strengths": [
+            "Affordable price points",
+            "High social media engagement",
+            "Rapid product turnover"
+          ],
+          "weaknesses": [
+            "Lower material value (Silver focus)",
+            "Less prestige in high-value gold/diamonds"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Buy Gold & Lab Grown Diamond Jewellery | Silver Jewellery – GIVA",
+            "meta_description": "Shop BIS Hallmark Gold, 925 Silver & Certified Lab Grown Diamond Jewellery at GIVA. Latest designs ✓ Best Offers ✓ Easy Returns ✓ Pan India Delivery"
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "CaratLane"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Main Service",
+          "your_brand": "Certified Gold & Diamond Jewellery",
+          "competitor": "Modern Diamond Jewellery"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Target Market",
+          "your_brand": "Urban Indian Professionals",
+          "competitor": "Millennial Digital Shoppers"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Key Strength",
+          "your_brand": "8000+ Unique Designs",
+          "competitor": "Titan Group Backing"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Opportunity",
+          "your_brand": "Omnichannel Store Growth",
+          "competitor": "Global Market Penetration"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Tanishq"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Main Service",
+          "your_brand": "Contemporary Fine Jewellery",
+          "competitor": "Traditional & Wedding Jewellery"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Target Market",
+          "your_brand": "Modern Urban Couples",
+          "competitor": "Pan-India Traditional Families"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Key Strength",
+          "your_brand": "Design Innovation & Agility",
+          "competitor": "Unmatched Brand Trust"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Opportunity",
+          "your_brand": "Digital-First Experience",
+          "competitor": "Luxury High-End Segments"
+        },
+        {
+          "competitor_name": "Giva",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Giva"
+        },
+        {
+          "competitor_name": "Giva",
+          "comparison": "Main Service",
+          "your_brand": "Precious Gold/Diamond Jewellery",
+          "competitor": "Sterling Silver & Gifting"
+        },
+        {
+          "competitor_name": "Giva",
+          "comparison": "Target Market",
+          "your_brand": "High-Intent Investors/Shoppers",
+          "competitor": "Impulse Gifting & Gen Z"
+        },
+        {
+          "competitor_name": "Giva",
+          "comparison": "Key Strength",
+          "your_brand": "Lifetime Buyback & Exchange",
+          "competitor": "Low Entry Price Point"
+        },
+        {
+          "competitor_name": "Giva",
+          "comparison": "Opportunity",
+          "your_brand": "Premium Brand Positioning",
+          "competitor": "Mass Market Volume"
+        }
+      ],
+      "strengths": [
+        "Omnichannel presence with 300+ physical stores",
+        "Lifetime exchange and buyback policies",
+        "Certified 14k, 18k, and 22k gold purity options",
+        "Personalised video consultation services"
+      ],
+      "opportunities": [
+        "Expansion into lab-grown diamond segments",
+        "Hyper-local SEO for 125+ cities with stores",
+        "Subscription-based gold saving schemes"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "buy diamond rings online india",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Engaged couples and gift buyers",
+        "search_volume": null
+      },
+      {
+        "query": "latest gold jewellery designs 2024",
+        "platforms": [
+          "Instagram",
+          "Facebook"
+        ],
+        "intent": "Inspirational",
+        "business_relevance": "High",
+        "target_audience": "Fashion-conscious women",
+        "search_volume": null
+      },
+      {
+        "query": "certified gold coins for investment",
+        "platforms": [
+          "Google",
+          "Facebook"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Medium",
+        "target_audience": "Festival shoppers and investors",
+        "search_volume": null
+      },
+      {
+        "query": "corporate gifting luxury jewellery india",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Medium",
+        "target_audience": "HR managers and business owners",
+        "search_volume": null
+      },
+      {
+        "query": "BlueStone vs CaratLane reviews",
+        "platforms": [
+          "X",
+          "Google"
+        ],
+        "intent": "Navigational",
+        "business_relevance": "High",
+        "target_audience": "Comparison shoppers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "Online Jewellery Shopping India",
+      "secondary_keywords": [
+        "Diamond Rings",
+        "Gold Earrings",
+        "Mangalsutra Designs",
+        "Solitaire Pendants"
+      ],
+      "long_tail_keywords": [
+        "buy 18k gold jewellery online",
+        "certified diamond nose pins india",
+        "lifetime exchange jewellery stores",
+        "personalised jewellery video consultation"
+      ],
+      "business_keywords": [
+        "BIS Hallmarked Gold",
+        "IGI Certified Diamonds",
+        "0% Making Charge Offers",
+        "Next Day Delivery Jewellery"
+      ],
+      "recommended_title": "BlueStone: Buy Gold & Diamond Jewellery Online in India",
+      "meta_description": "Shop 8000+ certified jewellery designs at BlueStone. Enjoy lifetime exchange, free shipping, and 300+ stores nationwide. Buy rings, earrings & more today.",
+      "supporting_content": {
+        "landing_pages": [
+          "Gold Coins Investment Guide",
+          "Diamond Solitaire Buying Guide"
+        ],
+        "industry_pages": [
+          "Jewellery Certification Standards",
+          "Gold Purity Guide 14k vs 18k vs 22k"
+        ],
+        "faqs": [
+          "How does lifetime exchange work?",
+          "Is BlueStone jewellery BIS hallmarked?"
+        ],
+        "blog_topics": [
+          "Top 10 Mangalsutra Designs for Modern Brides",
+          "How to Clean Diamond Jewellery at Home"
+        ],
+        "location_pages": [
+          "Jewellery Stores in Mumbai",
+          "Best Jewellery Shop in Bangalore"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Online Jewellery Shopping",
+        "description": "Browse and purchase from 7000+ certified designs online.",
+        "target_industry": "E-commerce",
+        "target_customer": "Digital shoppers",
+        "main_benefit": "Convenience and variety",
+        "source": "website"
+      },
+      {
+        "name": "Lifetime Exchange & Buyback",
+        "description": "Policy allowing customers to upgrade or sell back jewellery anytime.",
+        "target_industry": "Retail",
+        "target_customer": "Long-term investors",
+        "main_benefit": "Investment security",
+        "source": "website"
+      },
+      {
+        "name": "Personalised Video Consultations",
+        "description": "Expert jewellery advice via one-on-one video calls.",
+        "target_industry": "Luxury Services",
+        "target_customer": "Remote buyers",
+        "main_benefit": "Expert guidance from home",
+        "source": "website"
+      },
+      {
+        "name": "Home Try-On Service",
+        "description": "Request designs to be brought to your home for a physical trial before purchase.",
+        "target_industry": "Direct-to-Consumer",
+        "target_customer": "High-value shoppers",
+        "main_benefit": "Risk-free trial",
+        "source": "inferred"
+      },
+      {
+        "name": "Custom Engagement Ring Design",
+        "description": "Select solitaires and settings to create a bespoke ring.",
+        "target_industry": "Bridal",
+        "target_customer": "Couples",
+        "main_benefit": "Personalization",
+        "source": "inferred"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Urban women aged 25-45",
+        "Working professionals"
+      ],
+      "secondary_audience": [
+        "Men buying gifts",
+        "Parents buying for kids",
+        "Gold investors"
+      ],
+      "industries": [
+        "Luxury Goods",
+        "Retail",
+        "E-commerce"
+      ],
+      "business_types": [
+        "B2C",
+        "D2C"
+      ],
+      "customer_profiles": [
+        "Modern brides",
+        "Corporate gift seekers",
+        "Daily-wear jewellery enthusiasts"
+      ],
+      "geographic_focus": [
+        "Tier 1 and Tier 2 cities in India",
+        "Metropolitan hubs"
+      ],
+      "customer_needs": [
+        "Authenticity certification",
+        "Modern designs",
+        "Flexible exchange policies"
+      ],
+      "interests": [
+        "Fashion trends",
+        "Wedding planning",
+        "Financial investments",
+        "Luxury lifestyle"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "First-time diamond buyers",
+          "business_type": "B2C",
+          "requirement": "Education on 4Cs and certification"
+        },
+        {
+          "audience": "Festival shoppers",
+          "business_type": "B2C",
+          "requirement": "Gold coins and traditional motifs"
+        },
+        {
+          "audience": "Grooms-to-be",
+          "business_type": "B2C",
+          "requirement": "Engagement rings and men's bands"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3-flash-preview",
+    "llm_seconds": 29.12,
+    "input_tokens": 1931,
+    "output_tokens": 2403,
+    "cached": false,
+    "pages_read": 2,
+    "request_id": null,
+    "notes": []
+  }
+}

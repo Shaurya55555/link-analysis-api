@@ -163,3 +163,125 @@ def test_llm_api_failure_returns_502(monkeypatch):
     monkeypatch.setattr(analysis_service, "generate_json", boom)
     r = client.post("/link-analysis", json={"url": "https://acme.test"})
     assert r.status_code == 502 and "quota" not in r.text  # internals are not leaked
+
+
+# ---- schema strictness ----
+def test_schema_caps_extra_items_and_rejects_too_few():
+    import copy
+    from pydantic import ValidationError
+    from app.schemas import LLMOutput
+    many = copy.deepcopy(GOOD_LLM)
+    many["analysis"]["target_search_queries"] *= 2  # 10 -> capped to 5
+    many["analysis"]["top_services"] *= 2
+    out = LLMOutput.model_validate(many)
+    assert len(out.analysis.target_search_queries) == 5 and len(out.analysis.top_services) == 5
+    few = copy.deepcopy(GOOD_LLM)
+    few["analysis"]["top_services"] = few["analysis"]["top_services"][:3]
+    with pytest.raises(ValidationError):
+        LLMOutput.model_validate(few)
+    nocomp = copy.deepcopy(GOOD_LLM)
+    nocomp["analysis"]["competitor_analysis"]["competitors"] = nocomp["analysis"]["competitor_analysis"]["competitors"][:2]
+    with pytest.raises(ValidationError):
+        LLMOutput.model_validate(nocomp)
+
+
+# ---- rate limiting + request id ----
+def test_rate_limit_and_request_id(monkeypatch):
+    import app.main as m
+    _mock_site(monkeypatch)
+    monkeypatch.setattr(analysis_service, "generate_json",
+                        lambda *a, **k: LLMResult(GOOD_LLM, "gemini", "m", 0.1, 1, 1))
+    monkeypatch.setenv("RATE_LIMIT_PER_HOUR", "2")
+    m._hits.clear()
+    codes = [client.post("/link-analysis", json={"url": "https://acme.test"}) for _ in range(3)]
+    assert [r.status_code for r in codes] == [200, 200, 429]
+    assert codes[2].json()["code"] == "rate_limited"
+    assert codes[0].headers["x-request-id"] and codes[0].json()["meta"]["request_id"] == codes[0].headers["x-request-id"]
+    m._hits.clear()
+
+
+# ---- anthropic provider (HTTP mocked, not live-tested) ----
+def test_anthropic_provider_parses_response():
+    from app.config import Settings
+    def handler(request):
+        assert request.headers["x-api-key"] == "k" and request.headers["anthropic-version"]
+        return httpx.Response(200, json={"content": [{"type": "text", "text": '{"ok": true}'}],
+                                         "usage": {"input_tokens": 11, "output_tokens": 7}})
+    c = httpx.Client(transport=httpx.MockTransport(handler))
+    res = llm_service.generate_json("s", "u", Settings(llm_provider="anthropic", anthropic_api_key="k"), client=c)
+    assert res.data == {"ok": True} and res.provider == "anthropic" and (res.input_tokens, res.output_tokens) == (11, 7)
+
+
+def test_gemini_provider_parses_response_and_reports_tokens():
+    from app.config import Settings
+    def handler(request):
+        return httpx.Response(200, json={"candidates": [{"content": {"parts": [{"text": '{"a": 1}'}]}}],
+                                         "usageMetadata": {"promptTokenCount": 5, "candidatesTokenCount": 3}})
+    c = httpx.Client(transport=httpx.MockTransport(handler))
+    res = llm_service.generate_json("s", "u", Settings(llm_provider="gemini", gemini_api_key="k"), client=c)
+    assert res.data == {"a": 1} and (res.input_tokens, res.output_tokens) == (5, 3)
+
+
+def test_missing_key_gives_clean_error():
+    from app.config import Settings
+    with pytest.raises(LLMError):
+        llm_service.generate_json("s", "u", Settings(llm_provider="gemini", gemini_api_key=""), client=httpx.Client())
+
+
+# ---- SSRF via redirect ----
+def test_redirect_into_private_address_is_blocked():
+    from app.services.website_extractor import safe_get
+    def handler(request):
+        return httpx.Response(302, headers={"location": "http://169.254.169.254/latest/meta-data"})
+    c = httpx.Client(transport=httpx.MockTransport(handler))
+    with pytest.raises(UnsafeURLError):
+        safe_get("http://93.184.216.34/", c)
+
+
+def test_unresolvable_host_is_unreachable_not_blocked():
+    r = client.post("/link-analysis", json={"url": "https://this-domain-does-not-exist-12345.com"})
+    assert r.status_code == 502 and r.json()["code"] == "website_unreachable"
+
+
+def test_gemini_falls_back_to_next_model_on_503(monkeypatch):
+    from app.config import Settings
+    monkeypatch.setattr(llm_service.time, "sleep", lambda *_: None)
+    seen = []
+
+    def handler(request):
+        model = request.url.path.split("/models/")[1].split(":")[0]
+        seen.append(model)
+        if model == "primary":
+            return httpx.Response(503, json={})
+        return httpx.Response(200, json={"candidates": [{"content": {"parts": [{"text": '{"ok": 1}'}]}}]})
+
+    c = httpx.Client(transport=httpx.MockTransport(handler))
+    s = Settings(llm_provider="gemini", gemini_api_key="k", gemini_model="primary", gemini_fallback_models="backup")
+    res = llm_service.generate_json("s", "u", s, client=c)
+    assert res.model == "backup" and seen == ["primary", "primary", "backup"]  # 1 retry, then fallback
+
+
+def test_gemini_auth_error_is_not_retried(monkeypatch):
+    from app.config import Settings
+    calls = []
+
+    def handler(request):
+        calls.append(1)
+        return httpx.Response(403, json={})
+
+    c = httpx.Client(transport=httpx.MockTransport(handler))
+    s = Settings(llm_provider="gemini", gemini_api_key="bad", gemini_model="m", gemini_fallback_models="")
+    with pytest.raises(LLMError):
+        llm_service.generate_json("s", "u", s, client=c)
+    assert len(calls) == 1
+
+
+def test_dns_oserror_is_treated_as_unresolvable(monkeypatch):
+    from app.utils.validators import UnresolvableHostError
+
+    def boom(*a, **k):
+        raise OSError(16, "Device or resource busy")  # what some serverless runtimes raise for NXDOMAIN
+
+    monkeypatch.setattr("app.utils.validators.socket.getaddrinfo", boom)
+    with pytest.raises(UnresolvableHostError):
+        validate_url("https://nope.example")

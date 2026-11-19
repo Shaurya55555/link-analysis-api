@@ -1,0 +1,433 @@
+{
+  "success": true,
+  "website": "https://stripe.com/in",
+  "brand": {
+    "name": "Stripe",
+    "category": "Financial Infrastructure & Payment Services",
+    "summary": "Stripe is a financial services and software platform that helps businesses of all sizes accept payments, implement custom billing models, manage global money movement, and prevent fraud."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Stripe offers a comprehensive suite of developer-friendly financial infrastructure products, including global online and in-person payments, billing, card issuing, and fraud prevention, supporting millions of businesses worldwide.",
+      "competitors": [
+        {
+          "name": "PayPal",
+          "website": "https://www.paypal.com",
+          "main_service": "Digital Wallet and Online Payment Processing",
+          "target_market": "Consumers and merchants of all sizes globally",
+          "strengths": [
+            "High consumer brand recognition",
+            "Easy checkout experience via digital wallet",
+            "Global footprint"
+          ],
+          "weaknesses": [
+            "Higher merchant transaction fees",
+            "Frequent account holds and restrictions",
+            "Less developer-centric customization"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "Adyen",
+          "website": "https://www.adyen.com",
+          "main_service": "Global Payment Gateway and Acquiring",
+          "target_market": "Enterprise and large global retailers",
+          "strengths": [
+            "Unified single platform for online and in-store",
+            "Strong direct acquiring capabilities worldwide",
+            "Advanced enterprise reporting"
+          ],
+          "weaknesses": [
+            "Less friendly for small startups",
+            "Higher volume thresholds required",
+            "Complex integration process"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Adyen: Fintech platform for enterprises - Adyen",
+            "meta_description": "Run payments, manage your data, and offer financial products in one platform. Adyen is purpose-built for the world's leading businesses."
+          }
+        },
+        {
+          "name": "Square",
+          "website": "https://squareup.com",
+          "main_service": "POS Hardware and In-Person Payments",
+          "target_market": "Small businesses, retail, and hospitality",
+          "strengths": [
+            "Robust out-of-the-box hardware ecosystem",
+            "User-friendly point of sale software",
+            "Great for physical retail and local stores"
+          ],
+          "weaknesses": [
+            "Less flexible for complex enterprise billing",
+            "Limited custom API capabilities compared to Stripe",
+            "Higher transaction fees for keyed-in payments"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Power your entire business | Square",
+            "meta_description": "Sell anywhere. Diversify revenue streams. Streamline operations. Manage your staff. Get paid faster. Sign up for Square today."
+          }
+        },
+        {
+          "name": "Checkout.com",
+          "website": "https://www.checkout.com",
+          "main_service": "Online Payment Processing for Enterprises",
+          "target_market": "Large high-volume merchants and digital enterprises",
+          "strengths": [
+            "High authorization rates",
+            "Dedicated enterprise support",
+            "Optimized for cross-border transactions"
+          ],
+          "weaknesses": [
+            "Smaller developer community than Stripe",
+            "Fewer out-of-the-box self-serve tools for startups",
+            "Limited local hardware ecosystem"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Payment services to power your performance | Checkout.com",
+            "meta_description": "Boost your acceptance rate, cut processing costs, fight fraud, and create extraordinary customer experiences with Checkout.com's payment solutions."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Payment Solutions & Ecosystem",
+          "your_brand": "Stripe",
+          "competitor": "PayPal"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Main Service",
+          "your_brand": "Financial infrastructure, custom billing, and global payments",
+          "competitor": "Digital wallet and consumer checkout processing"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Target Market",
+          "your_brand": "Startups to global enterprises and SaaS platforms",
+          "competitor": "Mass market consumers and online merchants"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Key Strength",
+          "your_brand": "Extensible APIs, high uptime, and developer-first design",
+          "competitor": "Global consumer recognition and trusted wallet"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Opportunity",
+          "your_brand": "Expand embedded financial products and agentic commerce",
+          "competitor": "Improve developer tools and API customization"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Payment Solutions & Ecosystem",
+          "your_brand": "Stripe",
+          "competitor": "Adyen"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Main Service",
+          "your_brand": "Financial infrastructure, custom billing, and global payments",
+          "competitor": "End-to-end payment processing and global acquiring"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Target Market",
+          "your_brand": "Startups to global enterprises and SaaS platforms",
+          "competitor": "Large multinational enterprise merchants"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Key Strength",
+          "your_brand": "Extensible APIs, high uptime, and developer-first design",
+          "competitor": "Single platform unified global direct acquiring"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Opportunity",
+          "your_brand": "Expand embedded financial products and agentic commerce",
+          "competitor": "Capture the SMB and early-stage startup market"
+        },
+        {
+          "competitor_name": "Square",
+          "comparison": "Payment Solutions & Ecosystem",
+          "your_brand": "Stripe",
+          "competitor": "Square"
+        },
+        {
+          "competitor_name": "Square",
+          "comparison": "Main Service",
+          "your_brand": "Financial infrastructure, custom billing, and global payments",
+          "competitor": "POS hardware and retail point-of-sale software"
+        },
+        {
+          "competitor_name": "Square",
+          "comparison": "Target Market",
+          "your_brand": "Startups to global enterprises and SaaS platforms",
+          "competitor": "Brick-and-mortar small businesses and local shops"
+        },
+        {
+          "competitor_name": "Square",
+          "comparison": "Key Strength",
+          "your_brand": "Extensible APIs, high uptime, and developer-first design",
+          "competitor": "Integrated hardware ecosystem for physical stores"
+        },
+        {
+          "competitor_name": "Square",
+          "comparison": "Opportunity",
+          "your_brand": "Expand embedded financial products and agentic commerce",
+          "competitor": "Deepen complex enterprise billing and SaaS features"
+        }
+      ],
+      "strengths": [
+        "Extensible and reliable developer-first APIs with high uptime",
+        "Comprehensive product suite covering payments, billing, card issuing, and fraud prevention",
+        "Strong enterprise adoption including global brands like Hertz, URBN, and Instacart",
+        "Innovative offerings in crypto, stablecoins, and agentic commerce"
+      ],
+      "opportunities": [
+        "Capitalize on new regulations allowing payments outside app stores",
+        "Expand market share in emerging regions like India with localized pricing and payment methods",
+        "Deepen vertical SaaS penetration through embedded fintech and AI tooling",
+        "Scale crypto and stablecoin cross-border money movement options"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "financial infrastructure for global business payments",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Attracts enterprise decision-makers looking to scale payment operations globally.",
+        "target_audience": "CTOs, CFOs, and Product Leaders",
+        "search_volume": null
+      },
+      {
+        "query": "how to accept online payments securely for startups",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Captures early-stage founders looking for quick integration pathways.",
+        "target_audience": "Startup Founders and Developers",
+        "search_volume": null
+      },
+      {
+        "query": "stripe vs competitors for subscription billing",
+        "platforms": [
+          "Google",
+          "Facebook"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "Targets businesses evaluating billing models and automated revenue reconciliation.",
+        "target_audience": "Finance Managers and SaaS Operators",
+        "search_volume": null
+      },
+      {
+        "query": "fraud prevention tools for online credit card processing",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Drives traffic to fraud prevention and risk management products like Radar.",
+        "target_audience": "Risk Officers and E-commerce Directors",
+        "search_volume": null
+      },
+      {
+        "query": "accept crypto and stablecoin payments at checkout",
+        "platforms": [
+          "X",
+          "Instagram"
+        ],
+        "intent": "Navigational",
+        "business_relevance": "Connects tech-forward brands with modern borderless money movement solutions.",
+        "target_audience": "Innovation Leads and Web3 Developers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "financial infrastructure",
+      "secondary_keywords": [
+        "accept payments online",
+        "subscription billing software",
+        "payment gateway India",
+        "fraud prevention tools"
+      ],
+      "long_tail_keywords": [
+        "how to accept global payments for SaaS",
+        "financial infrastructure for growing businesses",
+        "custom billing and revenue models"
+      ],
+      "business_keywords": [
+        "Stripe payments",
+        "Stripe billing",
+        "Stripe radar",
+        "payment processing fees"
+      ],
+      "recommended_title": "Stripe | Financial Infrastructure & Global Payment Processing",
+      "meta_description": "Accept payments globally, automate billing, and manage money movement with Stripe's reliable financial infrastructure for businesses of all sizes.",
+      "supporting_content": {
+        "landing_pages": [
+          "/in/pricing",
+          "/in/products",
+          "/startups",
+          "/enterprise"
+        ],
+        "industry_pages": [
+          "/saas",
+          "/ecommerce",
+          "/platforms",
+          "/crypto"
+        ],
+        "faqs": [
+          "/docs/faq/payments",
+          "/docs/faq/billing",
+          "/docs/faq/fees"
+        ],
+        "blog_topics": [
+          "Annual letter on the internet economy trends",
+          "Vertical and SMB SaaS benchmark report insights",
+          "How leading retailers unify online and in-store commerce"
+        ],
+        "location_pages": [
+          "/in",
+          "/global"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Global Online and In-Person Payments",
+        "description": "Accept and optimize payments globally online, in person, and through agents with support for 125+ payment methods and 135+ currencies.",
+        "target_industry": "E-commerce and Retail",
+        "target_customer": "Merchants of all sizes",
+        "main_benefit": "Increase checkout conversion and acceptance rates",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Billing",
+        "description": "Automate recurring billing, subscription management, and revenue reconciliation for flexible business models.",
+        "target_industry": "SaaS and Subscription Services",
+        "target_customer": "SaaS operators and finance teams",
+        "main_benefit": "Enable any billing model and reduce churn",
+        "source": "website"
+      },
+      {
+        "name": "Fraud Protection and Risk Management",
+        "description": "Stop fraud without stopping growth using AI-powered tools like Radar to protect card payments and handle disputes.",
+        "target_industry": "All Industries",
+        "target_customer": "Risk and security officers",
+        "main_benefit": "Reduce chargeback costs and fraudulent transactions",
+        "source": "website"
+      },
+      {
+        "name": "Card Issuing Programme",
+        "description": "Create, launch, and scale custom card issuing programs with lower operational overhead using embedded components.",
+        "target_industry": "Fintech and Platforms",
+        "target_customer": "Product managers and platform founders",
+        "main_benefit": "Monetize platform transactions and card interchange fees",
+        "source": "website"
+      },
+      {
+        "name": "Crypto and Borderless Money Movement",
+        "description": "Access borderless money movement with stablecoins and crypto to tap into new global customer bases at checkout.",
+        "target_industry": "Web3 and Digital Commerce",
+        "target_customer": "Forward-thinking tech enterprises",
+        "main_benefit": "Enable seamless alternative global payment methods",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Software Developers",
+        "Startup Founders",
+        "CTOs",
+        "CFOs"
+      ],
+      "secondary_audience": [
+        "Product Managers",
+        "Finance Managers",
+        "Risk Officers",
+        "E-commerce Directors"
+      ],
+      "industries": [
+        "SaaS",
+        "E-commerce",
+        "Retail",
+        "Fintech",
+        "AI and Technology"
+      ],
+      "business_types": [
+        "Startups",
+        "SMBs",
+        "Vertical SaaS Providers",
+        "Global Enterprises",
+        "Platforms"
+      ],
+      "customer_profiles": [
+        "Fast-growing tech startup seeking rapid incorporation and fundraising tools",
+        "Global retail enterprise unifying online and in-store POS revenue",
+        "SaaS company scaling recurring subscription models across 150 countries"
+      ],
+      "geographic_focus": [
+        "India",
+        "Global / International Markets"
+      ],
+      "customer_needs": [
+        "Reliable API integration for payment acceptance",
+        "Automated subscription billing and revenue management",
+        "Advanced fraud prevention that does not hurt conversion rates",
+        "Cross-border currency and crypto payment support"
+      ],
+      "interests": [
+        "Software development",
+        "Financial technology",
+        "AI-powered commerce",
+        "Global market expansion"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Startup Founders",
+          "business_type": "Early-stage Startups",
+          "requirement": "Quick incorporation, fundraising tools, and easy out-of-the-box payment links"
+        },
+        {
+          "audience": "Enterprise Executives",
+          "business_type": "Global Enterprise",
+          "requirement": "Custom payment orchestration, multi-processor routing, and high uptime"
+        },
+        {
+          "audience": "Platform Operators",
+          "business_type": "SaaS and Marketplaces",
+          "requirement": "Embedded financial products, split payments, and custom card issuing"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "llm_seconds": 16.45,
+    "input_tokens": 3266,
+    "output_tokens": 3481,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

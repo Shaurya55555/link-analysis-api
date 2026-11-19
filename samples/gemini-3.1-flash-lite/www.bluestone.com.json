@@ -1,0 +1,383 @@
+{
+  "success": true,
+  "website": "https://www.bluestone.com",
+  "brand": {
+    "name": "BlueStone",
+    "category": "E-commerce Jewellery Retail",
+    "summary": "BlueStone is a leading Indian omnichannel jewellery retailer offering over 8,000 certified gold and diamond designs, supported by a network of 300+ physical stores and digital services like video consultations."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "BlueStone operates as a tech-forward jewellery brand bridging the gap between online convenience and physical trust through an extensive omnichannel presence.",
+      "competitors": [
+        {
+          "name": "Tanishq",
+          "website": "https://www.tanishq.co.in",
+          "main_service": "Gold and Diamond Jewellery",
+          "target_market": "Mass-affluent Indian consumers",
+          "strengths": [
+            "Strong brand heritage",
+            "Extensive physical retail network",
+            "High consumer trust"
+          ],
+          "weaknesses": [
+            "Higher price points",
+            "Slower digital innovation"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "CaratLane",
+          "website": "https://www.caratlane.com",
+          "main_service": "Everyday wear diamond jewellery",
+          "target_market": "Young, urban professionals",
+          "strengths": [
+            "Strong digital-first model",
+            "Modern design aesthetic",
+            "Try-at-home service"
+          ],
+          "weaknesses": [
+            "Limited high-end traditional gold range"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "CaratLane - A TATA Product | Best Store for Online Jewellery Shopping",
+            "meta_description": "CaratLane offers the best gold & diamond jewellery designs online. Check out our latest collection of rings, earrings, bangles, bracelets, necklaces at best price in India."
+          }
+        },
+        {
+          "name": "Kalyan Jewellers",
+          "website": "https://www.kalyanjewellers.net",
+          "main_service": "Traditional and bridal gold jewellery",
+          "target_market": "Traditional Indian families",
+          "strengths": [
+            "Deep regional market penetration",
+            "Strong bridal segment"
+          ],
+          "weaknesses": [
+            "Less focus on lightweight daily wear",
+            "Legacy retail structure"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Kalyan Jewellers | Buy Online Gold, Diamonds & Necklace Jewellery",
+            "meta_description": "Kalyan jewellers offers best quality diamond and gold jewellery with wide varieties of collections. Buy well designed wedding jewellery within affordable prices"
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Tanishq"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Main Service",
+          "your_brand": "Certified Gold/Diamond",
+          "competitor": "Gold/Diamond/Bridal"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Target Market",
+          "your_brand": "Modern/Digital-first",
+          "competitor": "Traditional/Mass-market"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel/Tech",
+          "competitor": "Heritage/Trust"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Opportunity",
+          "your_brand": "Expand bridal",
+          "competitor": "Digital agility"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "CaratLane"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Main Service",
+          "your_brand": "Certified Gold/Diamond",
+          "competitor": "Everyday Diamond"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Target Market",
+          "your_brand": "Modern/Digital-first",
+          "competitor": "Urban Professionals"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel/Tech",
+          "competitor": "Try-at-home"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Opportunity",
+          "your_brand": "Expand bridal",
+          "competitor": "Gold investment"
+        },
+        {
+          "competitor_name": "Kalyan Jewellers",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Kalyan Jewellers"
+        },
+        {
+          "competitor_name": "Kalyan Jewellers",
+          "comparison": "Main Service",
+          "your_brand": "Certified Gold/Diamond",
+          "competitor": "Traditional Gold"
+        },
+        {
+          "competitor_name": "Kalyan Jewellers",
+          "comparison": "Target Market",
+          "your_brand": "Modern/Digital-first",
+          "competitor": "Traditional Families"
+        },
+        {
+          "competitor_name": "Kalyan Jewellers",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel/Tech",
+          "competitor": "Regional Reach"
+        },
+        {
+          "competitor_name": "Kalyan Jewellers",
+          "comparison": "Opportunity",
+          "your_brand": "Expand bridal",
+          "competitor": "Digital UX"
+        }
+      ],
+      "strengths": [
+        "Omnichannel presence",
+        "Certified jewellery",
+        "Lifetime exchange policy",
+        "Personalised video consultations"
+      ],
+      "opportunities": [
+        "Expansion into premium bridal collections",
+        "Hyper-local digital marketing",
+        "Enhanced loyalty programs"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "buy certified diamond rings online India",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Online shoppers",
+        "search_volume": null
+      },
+      {
+        "query": "BlueStone jewellery store near me",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Navigational",
+        "business_relevance": "High",
+        "target_audience": "Local customers",
+        "search_volume": null
+      },
+      {
+        "query": "latest gold jewellery designs for women",
+        "platforms": [
+          "Instagram",
+          "Facebook"
+        ],
+        "intent": "Informational/Inspirational",
+        "business_relevance": "Medium",
+        "target_audience": "Fashion-conscious women",
+        "search_volume": null
+      },
+      {
+        "query": "BlueStone jewellery review and exchange policy",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Commercial Investigation",
+        "business_relevance": "Medium",
+        "target_audience": "Potential buyers",
+        "search_volume": null
+      },
+      {
+        "query": "corporate gifting jewellery solutions",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "B2B Transactional",
+        "business_relevance": "Low",
+        "target_audience": "Corporate buyers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "online jewellery store India",
+      "secondary_keywords": [
+        "certified diamond jewellery",
+        "gold rings online",
+        "BlueStone jewellery designs"
+      ],
+      "long_tail_keywords": [
+        "buy gold jewellery with lifetime exchange policy",
+        "personalised video consultation for jewellery"
+      ],
+      "business_keywords": [
+        "certified jewellery",
+        "omnichannel jewellery retailer",
+        "diamond jewellery online"
+      ],
+      "recommended_title": "Buy Certified Gold & Diamond Jewellery Online | BlueStone",
+      "meta_description": "Shop 8000+ certified gold and diamond jewellery designs at BlueStone. Enjoy free shipping, lifetime exchange, and money-back guarantee. Visit a store today!",
+      "supporting_content": {
+        "landing_pages": [
+          "Bridal Collection",
+          "Gold Coins",
+          "Men's Jewellery"
+        ],
+        "industry_pages": [
+          "Jewellery Care Guide",
+          "Gold Purity Explained"
+        ],
+        "faqs": [
+          "How does lifetime exchange work?",
+          "Is BlueStone jewellery certified?"
+        ],
+        "blog_topics": [
+          "How to choose the perfect engagement ring",
+          "Trends in gold jewellery 2024"
+        ],
+        "location_pages": [
+          "Jewellery stores in Bangalore",
+          "Jewellery stores in Delhi"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Certified Jewellery Sales",
+        "description": "Retail of hallmarked gold and certified diamond jewellery.",
+        "target_industry": "Retail",
+        "target_customer": "General Public",
+        "main_benefit": "Trust and authenticity",
+        "source": "website"
+      },
+      {
+        "name": "Lifetime Exchange & Buyback",
+        "description": "Policy allowing customers to exchange or return jewellery.",
+        "target_industry": "Retail",
+        "target_customer": "Investors/Collectors",
+        "main_benefit": "Financial security",
+        "source": "website"
+      },
+      {
+        "name": "Personalised Video Consultations",
+        "description": "Remote shopping assistance via video call.",
+        "target_industry": "Retail",
+        "target_customer": "Remote shoppers",
+        "main_benefit": "Convenience",
+        "source": "website"
+      },
+      {
+        "name": "Omnichannel Store Locator",
+        "description": "Find and visit physical stores for in-person experience.",
+        "target_industry": "Retail",
+        "target_customer": "Local shoppers",
+        "main_benefit": "Physical touchpoint",
+        "source": "website"
+      },
+      {
+        "name": "Custom Jewellery Design",
+        "description": "Bespoke jewellery creation services.",
+        "target_industry": "Luxury",
+        "target_customer": "High-net-worth individuals",
+        "main_benefit": "Personalization",
+        "source": "inferred"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Urban women aged 25-45",
+        "Couples shopping for weddings"
+      ],
+      "secondary_audience": [
+        "Gift buyers",
+        "Gold investors"
+      ],
+      "industries": [
+        "Retail",
+        "Fashion",
+        "Luxury Goods"
+      ],
+      "business_types": [
+        "B2C E-commerce",
+        "Physical Retail"
+      ],
+      "customer_profiles": [
+        "Tech-savvy shoppers",
+        "Traditional gold buyers",
+        "Modern professionals"
+      ],
+      "geographic_focus": [
+        "Pan-India",
+        "Tier 1 and Tier 2 cities"
+      ],
+      "customer_needs": [
+        "Trust and certification",
+        "Convenience",
+        "Design variety"
+      ],
+      "interests": [
+        "Fashion",
+        "Weddings",
+        "Investment",
+        "Luxury"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Brides-to-be",
+          "business_type": "B2C",
+          "requirement": "High-end, traditional designs"
+        },
+        {
+          "audience": "Young professionals",
+          "business_type": "B2C",
+          "requirement": "Lightweight, everyday wear"
+        },
+        {
+          "audience": "Gift buyers",
+          "business_type": "B2C",
+          "requirement": "Fast delivery and packaging"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "llm_seconds": 8.19,
+    "input_tokens": 1931,
+    "output_tokens": 2195,
+    "cached": false,
+    "pages_read": 2,
+    "request_id": null,
+    "notes": []
+  }
+}

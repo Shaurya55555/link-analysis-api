@@ -1,0 +1,385 @@
+{
+  "success": true,
+  "website": "https://zerodha.com",
+  "brand": {
+    "name": "Zerodha",
+    "category": "Online Stock Brokerage & Fintech",
+    "summary": "Zerodha is India's largest stock broker, pioneering the discount brokerage model with over 1.8 crore clients. The company provides a comprehensive ecosystem for trading stocks, derivatives, and mutual funds, prioritizing transparency, low costs, and financial education without gamification or spam."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Zerodha leads the Indian retail brokerage market by volume, focusing on a bootstrapped, technology-first approach with zero brokerage on long-term equity investments.",
+      "competitors": [
+        {
+          "name": "Upstox",
+          "website": "https://upstox.com",
+          "main_service": "Discount Brokerage",
+          "target_market": "Active Traders and Tech-Savvy Investors",
+          "strengths": [
+            "Strong mobile interface",
+            "Backed by high-profile investors"
+          ],
+          "weaknesses": [
+            "Higher focus on marketing spend over organic growth"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Trade & Invest: Online Share Market Trading App in India | Upstox",
+            "meta_description": "Trade & Invest in stocks, SIPs, IPOs, Mutual funds, F & O and more on NSE & BSE. Join 2 Cr+ for a hassle-free trading experience on Upstox!"
+          }
+        },
+        {
+          "name": "Groww",
+          "website": "https://groww.in",
+          "main_service": "Mutual Fund & Stock Investing",
+          "target_market": "Millennials and First-time Investors",
+          "strengths": [
+            "Extremely simple UI",
+            "Strong focus on mutual funds"
+          ],
+          "weaknesses": [
+            "Limited advanced trading tools compared to Kite"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Groww - Online Demat, Trading and Direct Mutual Fund Investment in India",
+            "meta_description": "Start Online Investing in Stocks & Direct Mutual Funds with India's No. 1 Stock Broker - Groww. Equity Trading, F&O, Direct Mutual Funds with Zero-commission & 24x7 support."
+          }
+        },
+        {
+          "name": "Angel One",
+          "website": "https://www.angelone.in",
+          "main_service": "Full-service & Discount Hybrid",
+          "target_market": "Tier 2 and Tier 3 City Investors",
+          "strengths": [
+            "Large offline sub-broker network",
+            "AI-based advisory"
+          ],
+          "weaknesses": [
+            "Legacy systems transition to digital"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Online Trading & Stock Broking in India | Angel One",
+            "meta_description": "Angel One - India’s leading stock broker for online trading in Stocks, Mutual Funds, Commodities, IPOs, F&O and ETFs. Trade seamlessly with smart tools."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Upstox",
+          "comparison": "Brand Name",
+          "your_brand": "Zerodha",
+          "competitor": "Upstox"
+        },
+        {
+          "competitor_name": "Upstox",
+          "comparison": "Main Service",
+          "your_brand": "Discount Broking & Ecosystem",
+          "competitor": "Digital Trading Platform"
+        },
+        {
+          "competitor_name": "Upstox",
+          "comparison": "Target Market",
+          "your_brand": "Retail Investors & Pro Traders",
+          "competitor": "Mobile-first Active Traders"
+        },
+        {
+          "competitor_name": "Upstox",
+          "comparison": "Key Strength",
+          "your_brand": "Market Education (Varsity)",
+          "competitor": "Fast Account Opening"
+        },
+        {
+          "competitor_name": "Upstox",
+          "comparison": "Opportunity",
+          "your_brand": "Fintech Startup Incubation",
+          "competitor": "Aggressive Referral Marketing"
+        },
+        {
+          "competitor_name": "Groww",
+          "comparison": "Brand Name",
+          "your_brand": "Zerodha",
+          "competitor": "Groww"
+        },
+        {
+          "competitor_name": "Groww",
+          "comparison": "Main Service",
+          "your_brand": "Multi-asset Trading",
+          "competitor": "Simplified Investing App"
+        },
+        {
+          "competitor_name": "Groww",
+          "comparison": "Target Market",
+          "your_brand": "Serious Wealth Builders",
+          "competitor": "Gen-Z & Novice Investors"
+        },
+        {
+          "competitor_name": "Groww",
+          "comparison": "Key Strength",
+          "your_brand": "Zero Cost Equity Delivery",
+          "competitor": "User Experience Simplicity"
+        },
+        {
+          "competitor_name": "Groww",
+          "comparison": "Opportunity",
+          "your_brand": "Advanced API Ecosystem",
+          "competitor": "Direct Mutual Fund Dominance"
+        },
+        {
+          "competitor_name": "Angel One",
+          "comparison": "Brand Name",
+          "your_brand": "Zerodha",
+          "competitor": "Angel One"
+        },
+        {
+          "competitor_name": "Angel One",
+          "comparison": "Main Service",
+          "your_brand": "Technology-led Brokerage",
+          "competitor": "Advisory-led Brokerage"
+        },
+        {
+          "competitor_name": "Angel One",
+          "comparison": "Target Market",
+          "your_brand": "Urban Tech-Savvy Clients",
+          "competitor": "Pan-India Retail Base"
+        },
+        {
+          "competitor_name": "Angel One",
+          "comparison": "Key Strength",
+          "your_brand": "Ethical Nudging & Transparency",
+          "competitor": "Personalized Recommendations"
+        },
+        {
+          "competitor_name": "Angel One",
+          "comparison": "Opportunity",
+          "your_brand": "Institutional Tech Stacks",
+          "competitor": "Hybrid Digital-Physical Reach"
+        }
+      ],
+      "strengths": [
+        "Largest active client base in India",
+        "Zero marketing spend/bootstrapped",
+        "Comprehensive educational content"
+      ],
+      "opportunities": [
+        "Expansion into credit/loans",
+        "Global market access for Indian investors",
+        "Deepening Rainmatter fintech fund"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "best online stock broker India",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "New Investors",
+        "search_volume": null
+      },
+      {
+        "query": "how to learn stock market trading for free",
+        "platforms": [
+          "Google",
+          "Instagram"
+        ],
+        "intent": "Informational",
+        "business_relevance": "High",
+        "target_audience": "Beginners",
+        "search_volume": null
+      },
+      {
+        "query": "Zerodha Kite vs Upstox features",
+        "platforms": [
+          "X",
+          "Google"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "High",
+        "target_audience": "Active Traders",
+        "search_volume": null
+      },
+      {
+        "query": "investing in direct mutual funds commission free",
+        "platforms": [
+          "Facebook",
+          "Instagram"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Medium",
+        "target_audience": "Passive Investors",
+        "search_volume": null
+      },
+      {
+        "query": "Zerodha Rainmatter fintech investments",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Medium",
+        "target_audience": "Fintech Founders",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "online stock brokerage",
+      "secondary_keywords": [
+        "discount broker",
+        "mutual funds",
+        "intraday trading",
+        "stock market education"
+      ],
+      "long_tail_keywords": [
+        "zero brokerage equity delivery India",
+        "best app for options trading",
+        "direct mutual funds vs regular funds"
+      ],
+      "business_keywords": [
+        "Kite trading platform",
+        "Zerodha Varsity",
+        "Coin mutual funds",
+        "Rainmatter fund"
+      ],
+      "recommended_title": "Zerodha - India's Largest Stock Broker | Online Investing",
+      "meta_description": "Invest in stocks, derivatives, mutual funds, and more with Zerodha, the pioneer of discount broking in India. Enjoy flat fees and free equity delivery.",
+      "supporting_content": {
+        "landing_pages": [
+          "Equity Delivery",
+          "F&O Trading",
+          "Direct Mutual Funds"
+        ],
+        "industry_pages": [
+          "Indian Capital Markets",
+          "Fintech Innovation"
+        ],
+        "faqs": [
+          "How to open a Demat account?",
+          "What are Zerodha charges?",
+          "How to use Kill Switch?"
+        ],
+        "blog_topics": [
+          "Market Psychology",
+          "Technical Analysis Basics",
+          "Impact of SEBI Regulations"
+        ],
+        "location_pages": [
+          "Zerodha Bangalore HQ",
+          "Partner Support Centers"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Kite",
+        "description": "Ultra-fast flagship trading platform with advanced charts and elegant UI.",
+        "target_industry": "Financial Services",
+        "target_customer": "Active Traders",
+        "main_benefit": "Seamless execution and streaming market data.",
+        "source": "website"
+      },
+      {
+        "name": "Coin",
+        "description": "Platform to buy direct mutual funds online, commission-free.",
+        "target_industry": "Wealth Management",
+        "target_customer": "Long-term Investors",
+        "main_benefit": "Zero commissions and direct Demat delivery.",
+        "source": "website"
+      },
+      {
+        "name": "Varsity",
+        "description": "Extensive online stock market education covering basics to advanced trading.",
+        "target_industry": "Education",
+        "target_customer": "Beginner to Pro Traders",
+        "main_benefit": "Free, high-quality financial literacy.",
+        "source": "website"
+      },
+      {
+        "name": "Console",
+        "description": "Central dashboard for account insights, reports, and visualizations.",
+        "target_industry": "Data Analytics",
+        "target_customer": "Portfolio Managers",
+        "main_benefit": "In-depth trade and investment transparency.",
+        "source": "website"
+      },
+      {
+        "name": "Kite Connect API",
+        "description": "HTTP/JSON APIs for building custom trading platforms and experiences.",
+        "target_industry": "Software Development",
+        "target_customer": "Fintech Startups",
+        "main_benefit": "Programmatic access to Indian markets.",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Retail Stock Traders",
+        "Equity Investors"
+      ],
+      "secondary_audience": [
+        "Mutual Fund Investors",
+        "Fintech Developers"
+      ],
+      "industries": [
+        "Finance",
+        "Technology",
+        "Education"
+      ],
+      "business_types": [
+        "B2C Financial Services",
+        "Fintech Incubators"
+      ],
+      "customer_profiles": [
+        "Tech-savvy professionals",
+        "Self-taught traders",
+        "Cost-conscious investors"
+      ],
+      "geographic_focus": [
+        "India"
+      ],
+      "customer_needs": [
+        "Low transaction costs",
+        "Reliable technology",
+        "Financial transparency"
+      ],
+      "interests": [
+        "Stock Market",
+        "Personal Finance",
+        "Wealth Management",
+        "Trading Strategies"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Young Professionals",
+          "business_type": "B2C",
+          "requirement": "Mobile-first investing tools"
+        },
+        {
+          "audience": "Professional Traders",
+          "business_type": "B2C",
+          "requirement": "Low latency and advanced charting"
+        },
+        {
+          "audience": "Fintech Startups",
+          "business_type": "B2B",
+          "requirement": "Robust API infrastructure"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3-flash-preview",
+    "llm_seconds": 19.29,
+    "input_tokens": 2015,
+    "output_tokens": 2236,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

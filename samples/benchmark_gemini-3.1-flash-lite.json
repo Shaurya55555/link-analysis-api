@@ -1,0 +1,64 @@
+[
+  {
+    "url": "https://zerodha.com",
+    "ok": false,
+    "total_s": 9.1,
+    "error": "LLMError: Gemini API error 503"
+  },
+  {
+    "url": "https://stripe.com",
+    "ok": true,
+    "total_s": 26.4,
+    "llm_s": 10.66,
+    "in_tok": 3266,
+    "out_tok": 2056,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 4,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 0.67
+  },
+  {
+    "url": "https://fastapi.tiangolo.com",
+    "ok": true,
+    "total_s": 15.6,
+    "llm_s": 11.13,
+    "in_tok": 3067,
+    "out_tok": 2097,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 4,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 1.0
+  },
+  {
+    "url": "https://www.bluestone.com",
+    "ok": true,
+    "total_s": 16.4,
+    "llm_s": 8.19,
+    "in_tok": 1931,
+    "out_tok": 2195,
+    "pages": 2,
+    "brand_in_site": true,
+    "services_website": 4,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 0.67
+  },
+  {
+    "url": "https://www.practo.com",
+    "ok": true,
+    "total_s": 19.2,
+    "llm_s": 14.02,
+    "in_tok": 1718,
+    "out_tok": 2067,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 5,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 1.0
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://zerodha.com",
+    "ok": true,
+    "total_s": 21.3,
+    "llm_s": 19.29,
+    "in_tok": 2015,
+    "out_tok": 2236,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 5,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 1.0
+  },
+  {
+    "url": "https://stripe.com",
+    "ok": true,
+    "total_s": 30.7,
+    "llm_s": 23.49,
+    "in_tok": 3266,
+    "out_tok": 2301,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 5,
+    "services_grounded": 1.0,
+    "competitors": 4,
+    "competitors_live": 0.75
+  },
+  {
+    "url": "https://fastapi.tiangolo.com",
+    "ok": true,
+    "total_s": 23.0,
+    "llm_s": 19.17,
+    "in_tok": 3067,
+    "out_tok": 2178,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 5,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 1.0
+  },
+  {
+    "url": "https://www.bluestone.com",
+    "ok": true,
+    "total_s": 38.7,
+    "llm_s": 29.12,
+    "in_tok": 1931,
+    "out_tok": 2403,
+    "pages": 2,
+    "brand_in_site": true,
+    "services_website": 3,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 0.67
+  },
+  {
+    "url": "https://www.practo.com",
+    "ok": true,
+    "total_s": 22.3,
+    "llm_s": 15.35,
+    "in_tok": 1718,
+    "out_tok": 2380,
+    "pages": 3,
+    "brand_in_site": true,
+    "services_website": 5,
+    "services_grounded": 1.0,
+    "competitors": 3,
+    "competitors_live": 1.0
+  }
+]

@@ -1,0 +1,410 @@
+{
+  "success": true,
+  "website": "https://www.bluestone.com",
+  "brand": {
+    "name": "BlueStone",
+    "category": "Fine Jewellery E-commerce & Retail",
+    "summary": "BlueStone is one of India's largest e-commerce portals for fine jewellery, founded in 2011 by Gaurav Singh Kushwaha in Bangalore. Offering over 7,000 certified contemporary designs in gold, diamond, platinum, and gemstones, BlueStone provides a seamless omnichannel shopping experience through its website, mobile app, and numerous physical retail stores across India."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "BlueStone operates in the highly competitive Indian fine jewellery market, differentiating itself through an omnichannel model, 7000+ certified designs, a lifetime exchange and buyback policy, and innovative upgrades like the Big Gold Upgrade.",
+      "competitors": [
+        {
+          "name": "CaratLane",
+          "website": "https://www.caratLane.com",
+          "main_service": "Online and retail fine diamond and gold jewellery",
+          "target_market": "Modern Indian consumers seeking lightweight, contemporary daily-wear jewellery",
+          "strengths": [
+            "Backed by Tanishq",
+            "Strong omnichannel retail presence",
+            "Popular lightweight designs"
+          ],
+          "weaknesses": [
+            "Heavy focus on daily wear might miss out on heavy bridal segments",
+            "Pricing competition in entry-level segments"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "CaratLane - A TATA Product | Best Store for Online Jewellery Shopping",
+            "meta_description": "CaratLane offers the best gold & diamond jewellery designs online. Check out our latest collection of rings, earrings, bangles, bracelets, necklaces at best price in India."
+          }
+        },
+        {
+          "name": "Tanishq",
+          "website": "https://www.tanishq.co.in",
+          "main_service": "Traditional and modern gold, diamond, and wedding jewellery",
+          "target_market": "Traditional Indian households and wedding shoppers",
+          "strengths": [
+            "Highest brand trust in India",
+            "Massive physical retail network",
+            "Strong heritage and gold purity reputation"
+          ],
+          "weaknesses": [
+            "Slower digital-first innovation compared to digital natives",
+            "Higher traditional overheads"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "Melorra",
+          "website": "https://www.melorra.com",
+          "main_service": "Lightweight, fashion-trend-inspired gold and diamond jewellery",
+          "target_market": "Gen Z and millennial working women",
+          "strengths": [
+            "Fast fashion-to-jewellery turnaround",
+            "Lightweight designs",
+            "Strong digital marketing"
+          ],
+          "weaknesses": [
+            "Limited physical retail footprint compared to BlueStone",
+            "Niche focus on lightweight trends"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Buy Trendy Gold & Diamond Jewellery Online for Women | Melorra",
+            "meta_description": "Buy the latest Gold, Diamond & Gemstone jewellery designs online at Melorra, a trusted online jewellery store. Discover lightweight jewellery, rings, earrings, necklaces, chains, bracelets, and pendan"
+          }
+        },
+        {
+          "name": "PC Jeweller",
+          "website": "https://www.pcjeweller.com",
+          "main_service": "Bridal and daily wear gold, diamond, and silver jewellery",
+          "target_market": "Mass market and regional Indian consumers",
+          "strengths": [
+            "Wide variety of traditional designs",
+            "Extensive showroom network"
+          ],
+          "weaknesses": [
+            "Weaker digital user experience",
+            "Lower online brand recall among younger demographics"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "PC Jeweller | Gold, Diamond & Silver Jewellery Collection Online",
+            "meta_description": "Explore exquisite gold, diamond, and silver jewellery at PC Jewellery. Discover rings, earrings, necklaces, pendants, bangles, and bridal collections crafted with elegance and trust."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "CaratLane"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Main Service",
+          "your_brand": "Online and retail fine jewellery with 7000+ certified designs",
+          "competitor": "Online and retail lightweight diamond and gold jewellery"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Target Market",
+          "your_brand": "Modern Indian consumers seeking contemporary gold, diamond, and men's/kids' jewellery",
+          "competitor": "Modern Indian consumers looking for everyday lightweight jewellery"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel integration, Big Gold Upgrade, and lifetime exchange policy",
+          "competitor": "Tanishq backing and strong daily-wear design catalog"
+        },
+        {
+          "competitor_name": "CaratLane",
+          "comparison": "Opportunity",
+          "your_brand": "Expand tier-2 and tier-3 city retail footprint further to capture non-metro demand",
+          "competitor": "Enhance heavier bridal collections to compete in traditional segments"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Tanishq"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Main Service",
+          "your_brand": "Online and retail fine jewellery with 7000+ certified designs",
+          "competitor": "Traditional and modern gold, diamond, and heavy wedding jewellery"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Target Market",
+          "your_brand": "Modern Indian consumers seeking contemporary gold, diamond, and men's/kids' jewellery",
+          "competitor": "Traditional Indian households and high-value wedding shoppers"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel integration, Big Gold Upgrade, and lifetime exchange policy",
+          "competitor": "Unmatched market trust, heritage, and massive physical showroom network"
+        },
+        {
+          "competitor_name": "Tanishq",
+          "comparison": "Opportunity",
+          "your_brand": "Leverage agile design cycles to capture fast-moving fashion jewellery trends ahead of legacy players",
+          "competitor": "Streamline online personalization and video consultation features"
+        },
+        {
+          "competitor_name": "Melorra",
+          "comparison": "Brand Name",
+          "your_brand": "BlueStone",
+          "competitor": "Melorra"
+        },
+        {
+          "competitor_name": "Melorra",
+          "comparison": "Main Service",
+          "your_brand": "Online and retail fine jewellery with 7000+ certified designs",
+          "competitor": "Global runway-inspired lightweight gold and diamond jewellery"
+        },
+        {
+          "competitor_name": "Melorra",
+          "comparison": "Target Market",
+          "your_brand": "Modern Indian consumers seeking contemporary gold, diamond, and men's/kids' jewellery",
+          "competitor": "Gen Z and millennial women focused on trendy daily wear"
+        },
+        {
+          "competitor_name": "Melorra",
+          "comparison": "Key Strength",
+          "your_brand": "Omnichannel presence with physical stores combined with e-commerce",
+          "competitor": "Rapid 3D printing and design launch cycles matching global fashion"
+        },
+        {
+          "competitor_name": "Melorra",
+          "comparison": "Opportunity",
+          "your_brand": "Deepen digital social commerce integrations on Instagram and Facebook",
+          "competitor": "Expand physical experiential retail stores to build high-ticket trust"
+        }
+      ],
+      "strengths": [
+        "Extensive catalog of over 7,000 certified contemporary designs",
+        "Robust omnichannel model combining online e-commerce with physical retail stores across India",
+        "Customer-centric policies including Lifetime Exchange, Buyback, and 7-day free returns",
+        "Innovative upgrade schemes like the Big Gold Upgrade offering 1% benefit over current market rates"
+      ],
+      "opportunities": [
+        "Expand personalized video consultation features to increase online conversion rates",
+        "Target growing segments like men's jewellery and kid's collections with dedicated campaigns",
+        "Capitalize on digital-first marketing across social platforms to capture younger demographics"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "buy certified diamond rings online India",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Directly targets high-intent buyers looking for certified diamond rings on e-commerce platforms.",
+        "target_audience": "Engagement ring shoppers and jewellery buyers in India",
+        "search_volume": null
+      },
+      {
+        "query": "latest gold mangalsutra designs BlueStone",
+        "platforms": [
+          "Instagram",
+          "Facebook"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Captures users looking for specific traditional-yet-modern bridal items showcased on social media.",
+        "target_audience": "Newlyweds and women shopping for traditional wedding jewellery",
+        "search_volume": null
+      },
+      {
+        "query": "men's gold chain and bracelet collections",
+        "platforms": [
+          "Google",
+          "Instagram"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Aligns with BlueStone Man offerings and growing demand for male fine accessories.",
+        "target_audience": "Men and gift-shoppers looking for male jewellery",
+        "search_volume": null
+      },
+      {
+        "query": "lifetime exchange gold jewellery policy",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Addresses buyer trust and highlights BlueStone's transparent exchange and buyback terms.",
+        "target_audience": "Cautious investors and fine jewellery buyers",
+        "search_volume": null
+      },
+      {
+        "query": "trendy layered necklaces for women",
+        "platforms": [
+          "X",
+          "Instagram"
+        ],
+        "intent": "Navigational",
+        "business_relevance": "Directly promotes BlueStone's chic layered necklace collections via lifestyle content.",
+        "target_audience": "Fashion-forward millennials and Gen Z consumers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "online jewellery shopping India",
+      "secondary_keywords": [
+        "gold and diamond jewellery designs",
+        "certified fine jewellery online",
+        "BlueStone jewellery stores"
+      ],
+      "long_tail_keywords": [
+        "buy certified diamond rings online in India",
+        "lifetime exchange gold jewellery policy",
+        "latest gold mangalsutra designs BlueStone"
+      ],
+      "business_keywords": [
+        "BlueStone jewellery",
+        "Big Gold Upgrade",
+        "BIS hallmark jewellery"
+      ],
+      "recommended_title": "BlueStone: Buy Certified Gold & Diamond Jewellery Designs Online",
+      "meta_description": "Discover 7000+ certified gold and diamond jewellery designs at BlueStone. Shop rings, earrings, mangalsutras with free shipping & lifetime exchange.",
+      "supporting_content": {
+        "landing_pages": [
+          "Men's Jewellery Collection",
+          "Solitaires & Engagement Rings"
+        ],
+        "industry_pages": [
+          "Bridal & Wedding Jewellery",
+          "Everyday Lightweight Fine Jewellery"
+        ],
+        "faqs": [
+          "How does the BlueStone Lifetime Exchange and Buyback Policy work?",
+          "What is the Big Gold Upgrade and how do I get 1% extra benefit?",
+          "Are all BlueStone gold and diamond pieces certified?"
+        ],
+        "blog_topics": [
+          "Top 10 Trendy Layered Necklaces to Elevate Your Everyday Look",
+          "How to Choose the Perfect Engagement Ring: A Complete Guide",
+          "Investing in Certified Fine Jewellery: What You Need to Know"
+        ],
+        "location_pages": [
+          "BlueStone Jewellery Stores in Bangalore",
+          "Find a BlueStone Store Near You in India"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Online Fine Jewellery Shopping",
+        "description": "E-commerce portal offering over 7,000 certified gold, diamond, platinum, and gemstone jewellery designs with free shipping.",
+        "target_industry": "Retail & E-commerce",
+        "target_customer": "Digital-first consumers and fine jewellery buyers",
+        "main_benefit": "Convenience of doorstep delivery with 100% certified authenticity",
+        "source": "website"
+      },
+      {
+        "name": "Omnichannel Retail Experience",
+        "description": "Seamless integration between online browsing and physical retail stores spread across India.",
+        "target_industry": "Retail",
+        "target_customer": "Shoppers who prefer physical touchpoints before purchasing fine jewellery",
+        "main_benefit": "Ability to explore collections both online and at a nearby physical store",
+        "source": "website"
+      },
+      {
+        "name": "Personalised Video Consultations",
+        "description": "One-on-one virtual styling and product consultation sessions with jewellery experts.",
+        "target_industry": "Customer Experience",
+        "target_customer": "Online shoppers seeking expert guidance on design selection",
+        "main_benefit": "Personalized assistance from the comfort of home",
+        "source": "website"
+      },
+      {
+        "name": "Lifetime Exchange & Buyback Policy",
+        "description": "Policy ensuring customers can exchange or sell back their jewellery with long-term investment security.",
+        "target_industry": "Financial Security in Retail",
+        "target_customer": "Value-conscious jewellery buyers and investors",
+        "main_benefit": "Peace of mind and guaranteed residual value for jewellery investments",
+        "source": "website"
+      },
+      {
+        "name": "Big Gold Upgrade",
+        "description": "Upgrade program allowing customers to exchange outdated gold jewellery for an instant 1% benefit over current market gold rates.",
+        "target_industry": "Gold Exchange Services",
+        "target_customer": "Existing gold owners looking to refresh their collection",
+        "main_benefit": "Extra financial value when upgrading old gold to contemporary designs",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Modern Indian consumers",
+        "Working professionals",
+        "Millennials and Gen Z fashion enthusiasts"
+      ],
+      "secondary_audience": [
+        "Wedding shoppers",
+        "Gift buyers",
+        "Men and parents shopping for kids' jewellery"
+      ],
+      "industries": [
+        "Retail",
+        "E-commerce",
+        "Fashion and Luxury Goods"
+      ],
+      "business_types": [
+        "B2C E-commerce",
+        "Omnichannel Retail"
+      ],
+      "customer_profiles": [
+        "Urban style-conscious individuals seeking contemporary fine jewellery",
+        "Traditional yet modern couples looking for engagement rings and mangalsutras"
+      ],
+      "geographic_focus": [
+        "India (Nationwide e-commerce and physical retail stores in major cities like Bangalore)"
+      ],
+      "customer_needs": [
+        "Certified authenticity (BIS Hallmark, IGI, GSI)",
+        "Convenient online shopping with free shipping and COD",
+        "Secure investment with buyback and lifetime exchange options"
+      ],
+      "interests": [
+        "Fine jewellery",
+        "Fashion trends",
+        "Gold and diamond investments",
+        "Luxury accessories"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Modern Working Women",
+          "business_type": "B2C",
+          "requirement": "Chic daily-wear earrings, rings, and layered necklaces"
+        },
+        {
+          "audience": "Wedding Shoppers",
+          "business_type": "B2C",
+          "requirement": "Certified engagement rings, mangalsutras, and bridal sets"
+        },
+        {
+          "audience": "Male Fashion Consumers",
+          "business_type": "B2C",
+          "requirement": "Contemporary men's jewellery including chains, kadas, and rings"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "llm_seconds": 13.55,
+    "input_tokens": 1745,
+    "output_tokens": 3705,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

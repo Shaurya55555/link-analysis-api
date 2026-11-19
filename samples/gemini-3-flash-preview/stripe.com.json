@@ -1,0 +1,414 @@
+{
+  "success": true,
+  "website": "https://stripe.com/in",
+  "brand": {
+    "name": "Stripe India",
+    "category": "Financial Infrastructure and Payment Processing",
+    "summary": "Stripe is a global financial services platform providing infrastructure for businesses to accept payments, manage subscriptions, and automate money movement with a focus on developer-friendly APIs and high reliability."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Stripe positions itself as the backbone of global commerce, offering a highly scalable and extensible infrastructure that supports over 135 currencies and maintains 99.9999% uptime.",
+      "competitors": [
+        {
+          "name": "Razorpay",
+          "website": "https://razorpay.com",
+          "main_service": "Payment Gateway and Neo-banking",
+          "target_market": "Indian SMBs and Startups",
+          "strengths": [
+            "Deep localization for Indian payment methods",
+            "Integrated banking suite"
+          ],
+          "weaknesses": [
+            "Limited global presence compared to Stripe",
+            "Complex international compliance"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Razorpay - Best Payment Solution for Online Payments India",
+            "meta_description": "Online Payments India: Start Accepting Payments Instantly with Razorpay's Payment Suite, which Supports Netbanking, Credit Card & Debit Cards, UPI etc."
+          }
+        },
+        {
+          "name": "Adyen",
+          "website": "https://www.adyen.com",
+          "main_service": "Unified Commerce Payments",
+          "target_market": "Global Enterprise Retailers",
+          "strengths": [
+            "Single platform for POS and online",
+            "Direct acquiring licenses"
+          ],
+          "weaknesses": [
+            "Higher entry barriers for small startups",
+            "Less developer-centric documentation"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Adyen: Fintech platform for enterprises - Adyen",
+            "meta_description": "Run payments, manage your data, and offer financial products in one platform. Adyen is purpose-built for the world's leading businesses."
+          }
+        },
+        {
+          "name": "PayPal",
+          "website": "https://www.paypal.com",
+          "main_service": "Digital Wallet and Checkout",
+          "target_market": "Consumer-facing E-commerce",
+          "strengths": [
+            "High consumer brand trust",
+            "Massive global user base"
+          ],
+          "weaknesses": [
+            "Higher transaction fees",
+            "Less flexible for complex B2B billing models"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "PayU",
+          "website": "https://www.payu.in",
+          "main_service": "Payment Orchestration",
+          "target_market": "Emerging Market Enterprises",
+          "strengths": [
+            "Strong presence in India and LATAM",
+            "High success rates for local cards"
+          ],
+          "weaknesses": [
+            "Fragmented product suite",
+            "Slower API innovation"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "PayU - Best Digital Payment Solutions for Businesses | 150+ Payment Methods",
+            "meta_description": "PayU enables businesses in India to accept digital payments from credit cards, debit cards, net banking, BNPL, QR, UPI, Wallets and more."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "Razorpay"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Main Service",
+          "your_brand": "Global Financial Infrastructure",
+          "competitor": "Localized Payment Gateway"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Target Market",
+          "your_brand": "Global Tech and Enterprise",
+          "competitor": "Indian SMBs and Startups"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Key Strength",
+          "your_brand": "Developer Experience and APIs",
+          "competitor": "Local Payment Method Coverage"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Opportunity",
+          "your_brand": "Agentic Commerce and AI",
+          "competitor": "Neo-banking for Indian Businesses"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "Adyen"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Main Service",
+          "your_brand": "Modular Payment Components",
+          "competitor": "Unified Commerce Platform"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Target Market",
+          "your_brand": "Startups to Enterprise",
+          "competitor": "Large-scale Global Retail"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Key Strength",
+          "your_brand": "Ecosystem and App Marketplace",
+          "competitor": "Single Platform for all Channels"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Opportunity",
+          "your_brand": "Stablecoin and Crypto Payments",
+          "competitor": "Omnichannel Retail Expansion"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "PayPal"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Main Service",
+          "your_brand": "Infrastructure for Money Movement",
+          "competitor": "Digital Wallet and Checkout"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Target Market",
+          "your_brand": "Platforms and B2B SaaS",
+          "competitor": "Consumer-to-Business Trade"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Key Strength",
+          "your_brand": "API Flexibility and Extensibility",
+          "competitor": "Global Brand Recognition"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Opportunity",
+          "your_brand": "Embedded Financial Services",
+          "competitor": "Cross-border Consumer Growth"
+        }
+      ],
+      "strengths": [
+        "99.9999% uptime during peak periods",
+        "Support for 135+ currencies",
+        "AI-powered fraud prevention with Radar"
+      ],
+      "opportunities": [
+        "Expansion into Agentic Commerce Protocol",
+        "Stablecoin and crypto payment integration",
+        "Processing payments outside mobile app stores"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "payment gateway for indian startups",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Founders and Finance Leads",
+        "search_volume": null
+      },
+      {
+        "query": "stripe api integration guide",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Informational",
+        "business_relevance": "High",
+        "target_audience": "Software Developers",
+        "search_volume": null
+      },
+      {
+        "query": "accept international payments india",
+        "platforms": [
+          "Facebook",
+          "Instagram"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "High",
+        "target_audience": "Small Business Owners",
+        "search_volume": null
+      },
+      {
+        "query": "embedded finance for saas platforms",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Medium",
+        "target_audience": "Product Managers",
+        "search_volume": null
+      },
+      {
+        "query": "stripe billing vs recurring payments",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "High",
+        "target_audience": "SaaS Founders",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "Payment Gateway India",
+      "secondary_keywords": [
+        "Financial Infrastructure",
+        "Online Payments",
+        "Subscription Billing",
+        "Fraud Prevention"
+      ],
+      "long_tail_keywords": [
+        "how to accept international payments in India",
+        "best API for recurring billing",
+        "embedded payments for SaaS platforms",
+        "stablecoin payments for business"
+      ],
+      "business_keywords": [
+        "Stripe Billing",
+        "Stripe Connect",
+        "Stripe Radar",
+        "Global Commerce Backbone"
+      ],
+      "recommended_title": "Stripe India | Financial Infrastructure & Payment Gateway",
+      "meta_description": "Accept payments, manage subscriptions, and scale your business globally with Stripe's financial infrastructure. 99.99% uptime and AI fraud protection.",
+      "supporting_content": {
+        "landing_pages": [
+          "Global Payments",
+          "Subscription Management",
+          "Embedded Finance"
+        ],
+        "industry_pages": [
+          "SaaS Solutions",
+          "E-commerce Platforms",
+          "Crypto and Web3"
+        ],
+        "faqs": [
+          "How are payment fees calculated?",
+          "Are there additional fees for refunds?",
+          "Do you offer discounts for startups?"
+        ],
+        "blog_topics": [
+          "The Future of Agentic Commerce",
+          "Scaling to $100m ARR with Stripe",
+          "Navigating Global Payment Regulations"
+        ],
+        "location_pages": [
+          "Stripe India",
+          "Stripe Global Operations"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Global Payment Processing",
+        "description": "Accept and optimize payments globally online, in person, and through agents.",
+        "target_industry": "E-commerce",
+        "target_customer": "Global Retailers",
+        "main_benefit": "Access to 135+ currencies and local payment methods",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Billing",
+        "description": "Automate recurring revenue models and flexible billing for SaaS and subscription businesses.",
+        "target_industry": "SaaS",
+        "target_customer": "Software Companies",
+        "main_benefit": "Reduced churn and automated reconciliation",
+        "source": "website"
+      },
+      {
+        "name": "Radar Fraud Prevention",
+        "description": "AI-powered fraud protection that stops fraudulent transactions without stopping growth.",
+        "target_industry": "Financial Services",
+        "target_customer": "Risk Managers",
+        "main_benefit": "Increased acceptance rates and lower chargeback costs",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Connect",
+        "description": "Embed payments into your platform or marketplace to monetize transactions.",
+        "target_industry": "Marketplaces",
+        "target_customer": "Platform Founders",
+        "main_benefit": "Lower operational overhead for multi-party payments",
+        "source": "website"
+      },
+      {
+        "name": "Card Issuing",
+        "description": "Create a card issuing program to manage corporate spending or customer payouts.",
+        "target_industry": "Fintech",
+        "target_customer": "Financial Product Managers",
+        "main_benefit": "Customizable physical and virtual card programs",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Tech Startups",
+        "E-commerce Businesses"
+      ],
+      "secondary_audience": [
+        "Enterprise Retailers",
+        "SaaS Developers"
+      ],
+      "industries": [
+        "SaaS",
+        "Retail",
+        "AI",
+        "Crypto",
+        "Grocery Delivery"
+      ],
+      "business_types": [
+        "B2B",
+        "B2C",
+        "Marketplaces",
+        "Platforms"
+      ],
+      "customer_profiles": [
+        "CTOs",
+        "Product Managers",
+        "Finance Directors",
+        "Developers"
+      ],
+      "geographic_focus": [
+        "India",
+        "Global"
+      ],
+      "customer_needs": [
+        "Global scaling",
+        "Fraud reduction",
+        "Automated billing",
+        "High uptime"
+      ],
+      "interests": [
+        "Fintech innovation",
+        "AI automation",
+        "Developer tools",
+        "Global economy trends"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "AI Startups",
+          "business_type": "SaaS",
+          "requirement": "Usage-based billing and AI agent integration"
+        },
+        {
+          "audience": "Global Retailers",
+          "business_type": "E-commerce",
+          "requirement": "Unified online and in-store revenue management"
+        },
+        {
+          "audience": "Platform Developers",
+          "business_type": "Marketplaces",
+          "requirement": "Embedded payment components and no-code tools"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3-flash-preview",
+    "llm_seconds": 23.49,
+    "input_tokens": 3266,
+    "output_tokens": 2301,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

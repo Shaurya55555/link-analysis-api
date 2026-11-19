@@ -1,0 +1,394 @@
+{
+  "success": true,
+  "website": "https://www.practo.com",
+  "brand": {
+    "name": "Practo",
+    "category": "Integrated Digital Healthcare Platform",
+    "summary": "Practo is a comprehensive healthcare platform in India providing video consultations, in-clinic appointment bookings, medicine delivery, and diagnostic tests, while also offering practice management software for healthcare providers."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Practo operates as a market leader in the Indian health-tech space, leveraging a massive network of 1 lakh+ doctors and 30 crore+ patients to provide an end-to-end healthcare ecosystem from discovery to recovery.",
+      "competitors": [
+        {
+          "name": "Tata 1mg",
+          "website": "https://www.1mg.com",
+          "main_service": "E-pharmacy and Diagnostics",
+          "target_market": "Chronic patients and health-conscious urban consumers",
+          "strengths": [
+            "Strong brand trust under Tata Group",
+            "Extensive medicine database"
+          ],
+          "weaknesses": [
+            "Less focus on doctor-patient software solutions",
+            "Lower emphasis on in-clinic booking"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "",
+            "meta_description": ""
+          }
+        },
+        {
+          "name": "Apollo 24/7",
+          "website": "https://www.apollo247.com",
+          "main_service": "Telemedicine and Hospital Network",
+          "target_market": "Patients seeking established clinical expertise",
+          "strengths": [
+            "Direct integration with Apollo Hospitals",
+            "High clinical credibility"
+          ],
+          "weaknesses": [
+            "Limited to Apollo ecosystem",
+            "Less diverse third-party clinic listings"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+            "meta_description": "Apollo 24|7 helps you get treated from Apollo certified doctors at any time of the day, wherever you are. The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep del"
+          }
+        },
+        {
+          "name": "MediBuddy",
+          "website": "https://www.medibuddy.in",
+          "main_service": "Corporate Wellness and Insurance",
+          "target_market": "Corporate employees and insurance policyholders",
+          "strengths": [
+            "Strong B2B partnerships",
+            "Seamless insurance integration"
+          ],
+          "weaknesses": [
+            "Lower direct-to-consumer brand recall",
+            "Complex UI for individual users"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "MediBuddy | Book Health Checks, Lab tests, Online Medicine & Doctor Consultation",
+            "meta_description": "MediBuddy is one of the best (cashless) healthcare providers in India. At MediBuddy you can book Health check packages, online lab tests, online medicines, online doctor consultation, teleconsultation"
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "Tata 1mg"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Main Service",
+          "your_brand": "Doctor Discovery & Consultation",
+          "competitor": "Medicine Delivery & Lab Tests"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Target Market",
+          "your_brand": "General Indian population seeking doctors",
+          "competitor": "Patients requiring regular medication"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Key Strength",
+          "your_brand": "Largest verified doctor directory",
+          "competitor": "Supply chain and logistics efficiency"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Opportunity",
+          "your_brand": "Expand into chronic disease management",
+          "competitor": "Increase focus on practice management tools"
+        },
+        {
+          "competitor_name": "Apollo 24/7",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "Apollo 24/7"
+        },
+        {
+          "competitor_name": "Apollo 24/7",
+          "comparison": "Main Service",
+          "your_brand": "Aggregated Healthcare Marketplace",
+          "competitor": "Hospital-led Telehealth"
+        },
+        {
+          "competitor_name": "Apollo 24/7",
+          "comparison": "Target Market",
+          "your_brand": "Pan-India digital users",
+          "competitor": "Apollo Hospital loyalists"
+        },
+        {
+          "competitor_name": "Apollo 24/7",
+          "comparison": "Key Strength",
+          "your_brand": "Neutral platform with 100k+ doctors",
+          "competitor": "In-house clinical excellence"
+        },
+        {
+          "competitor_name": "Apollo 24/7",
+          "comparison": "Opportunity",
+          "your_brand": "Deepen hospital software integration",
+          "competitor": "Open platform to non-Apollo doctors"
+        },
+        {
+          "competitor_name": "MediBuddy",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "MediBuddy"
+        },
+        {
+          "competitor_name": "MediBuddy",
+          "comparison": "Main Service",
+          "your_brand": "B2C Healthcare Services",
+          "competitor": "Corporate Health Benefits"
+        },
+        {
+          "competitor_name": "MediBuddy",
+          "comparison": "Target Market",
+          "your_brand": "Individual patients and clinics",
+          "competitor": "Enterprise HR and Insurance sectors"
+        },
+        {
+          "competitor_name": "MediBuddy",
+          "comparison": "Key Strength",
+          "your_brand": "Consumer-first mobile experience",
+          "competitor": "Corporate health plan penetration"
+        },
+        {
+          "competitor_name": "MediBuddy",
+          "comparison": "Opportunity",
+          "your_brand": "Develop corporate-specific health plans",
+          "competitor": "Improve direct consumer acquisition"
+        }
+      ],
+      "strengths": [
+        "Massive verified doctor database",
+        "Integrated practice management software (Ray)",
+        "Full-stack HIMS solution (Insta)"
+      ],
+      "opportunities": [
+        "Expansion into rural healthcare via low-bandwidth video",
+        "AI-driven symptom checkers",
+        "Personalized health insurance products"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "book doctor appointment online",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Patients needing in-person care",
+        "search_volume": null
+      },
+      {
+        "query": "online video consultation with doctor",
+        "platforms": [
+          "Facebook",
+          "Instagram"
+        ],
+        "intent": "Informational/Transactional",
+        "business_relevance": "High",
+        "target_audience": "Busy urban professionals",
+        "search_volume": null
+      },
+      {
+        "query": "order medicines online home delivery",
+        "platforms": [
+          "Google",
+          "X"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Medium",
+        "target_audience": "Chronic patients and caregivers",
+        "search_volume": null
+      },
+      {
+        "query": "best practice management software for clinics",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "High",
+        "target_audience": "Doctors and clinic owners",
+        "search_volume": null
+      },
+      {
+        "query": "diagnostic lab tests at home",
+        "platforms": [
+          "Google",
+          "Facebook"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "Medium",
+        "target_audience": "Elderly and health-conscious families",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "Online Doctor Consultation",
+      "secondary_keywords": [
+        "Book Doctor Appointment",
+        "Buy Medicine Online",
+        "Lab Tests at Home",
+        "Practice Management Software"
+      ],
+      "long_tail_keywords": [
+        "video consultation with gynecologist online",
+        "best HIMS solution for hospitals in India",
+        "medicine delivery in 100+ cities",
+        "verified doctor directory India"
+      ],
+      "business_keywords": [
+        "Practo Ray",
+        "Practo Insta",
+        "Practo Prime",
+        "Digital Prescriptions"
+      ],
+      "recommended_title": "Practo: Video Consultations, Appointments & Medicine Delivery",
+      "meta_description": "Consult top doctors online via video, book in-clinic appointments, order medicines, and schedule diagnostic tests at home. Trusted by 30 crore+ patients.",
+      "supporting_content": {
+        "landing_pages": [
+          "Online Video Consultations",
+          "In-clinic Appointments",
+          "Medicine Home Delivery"
+        ],
+        "industry_pages": [
+          "Solutions for Clinics",
+          "Solutions for Hospitals",
+          "Corporate Health Plans"
+        ],
+        "faqs": [
+          "How to book a video consultation?",
+          "Is my medical data secure?",
+          "How does medicine delivery work?"
+        ],
+        "blog_topics": [
+          "Benefits of Telemedicine",
+          "Managing Chronic Health at Home",
+          "Digital Transformation for Clinics"
+        ],
+        "location_pages": [
+          "Doctors in Bangalore",
+          "Doctors in Mumbai",
+          "Doctors in Delhi NCR"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Online Video Consultations",
+        "description": "24/7 access to trusted doctors across 20+ specialities from the comfort of home.",
+        "target_industry": "Telehealth",
+        "target_customer": "Remote or busy patients",
+        "main_benefit": "Instant access to specialists",
+        "source": "website"
+      },
+      {
+        "name": "In-clinic Appointment Booking",
+        "description": "Search and book appointments with over 1 lakh verified doctor partners.",
+        "target_industry": "Healthcare Services",
+        "target_customer": "Local patients",
+        "main_benefit": "Reduced waiting time and verified info",
+        "source": "website"
+      },
+      {
+        "name": "Medicine Delivery",
+        "description": "Online pharmacy store delivering medicines to 100+ cities across India.",
+        "target_industry": "E-pharmacy",
+        "target_customer": "Chronic patients",
+        "main_benefit": "Convenience and best prices",
+        "source": "website"
+      },
+      {
+        "name": "Diagnostic Lab Tests",
+        "description": "Home sample collection for various health packages and diagnostic tests.",
+        "target_industry": "Diagnostics",
+        "target_customer": "Health-conscious individuals",
+        "main_benefit": "Safety and comfort of home",
+        "source": "website"
+      },
+      {
+        "name": "Practo Ray",
+        "description": "Award-winning practice management software for clinics to manage records and billing.",
+        "target_industry": "Health-IT",
+        "target_customer": "Clinic owners and doctors",
+        "main_benefit": "Operational efficiency and digital records",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Urban patients",
+        "Tech-savvy millennials"
+      ],
+      "secondary_audience": [
+        "Doctors",
+        "Clinic administrators",
+        "Hospital owners"
+      ],
+      "industries": [
+        "Healthcare",
+        "Information Technology",
+        "Pharmaceuticals"
+      ],
+      "business_types": [
+        "B2C Healthcare Marketplace",
+        "SaaS for Medical Providers",
+        "B2B HIMS"
+      ],
+      "customer_profiles": [
+        "Working professionals seeking quick consultations",
+        "Caregivers for elderly parents",
+        "Private practitioners digitizing their clinics"
+      ],
+      "geographic_focus": [
+        "India (Tier 1 and Tier 2 cities)"
+      ],
+      "customer_needs": [
+        "Accessibility",
+        "Affordability",
+        "Verified medical information",
+        "Data privacy"
+      ],
+      "interests": [
+        "Wellness",
+        "Digital Health",
+        "Preventive Medicine",
+        "Medical Technology"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Young Parents",
+          "business_type": "B2C",
+          "requirement": "Pediatric video consultations"
+        },
+        {
+          "audience": "Private Practitioners",
+          "business_type": "B2B",
+          "requirement": "Patient record management software"
+        },
+        {
+          "audience": "Chronic Patients",
+          "business_type": "B2C",
+          "requirement": "Regular medicine refills and lab tests"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3-flash-preview",
+    "llm_seconds": 15.35,
+    "input_tokens": 1718,
+    "output_tokens": 2380,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

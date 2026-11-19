@@ -1,0 +1,23 @@
+### Successful analysis
+POST http://localhost:4000/link-analysis
+Content-Type: application/json
+
+{"url": "https://zerodha.com"}
+
+### Blocked: cloud metadata address (SSRF) -> 400 invalid_or_blocked_url
+POST http://localhost:4000/link-analysis
+Content-Type: application/json
+
+{"url": "http://169.254.169.254/latest/meta-data"}
+
+### Invalid body -> 422 invalid_request
+POST http://localhost:4000/link-analysis
+Content-Type: application/json
+
+{"link": "zerodha.com"}
+
+### Unreachable site -> 502 website_unreachable
+POST http://localhost:4000/link-analysis
+Content-Type: application/json
+
+{"url": "https://this-domain-does-not-exist-12345.com"}

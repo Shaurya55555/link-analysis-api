@@ -1,0 +1,382 @@
+{
+  "success": true,
+  "website": "https://www.practo.com",
+  "brand": {
+    "name": "Practo",
+    "category": "Health-Tech / Telemedicine",
+    "summary": "Practo is a comprehensive digital healthcare platform in India that connects patients with doctors for online and in-clinic consultations, provides medicine delivery, diagnostic services, and offers practice management software for healthcare providers."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Practo operates as a dual-sided marketplace connecting patients to providers while offering B2B SaaS solutions for clinic management.",
+      "competitors": [
+        {
+          "name": "Tata 1mg",
+          "website": "https://www.1mg.com",
+          "main_service": "Online Pharmacy",
+          "target_market": "India",
+          "strengths": [
+            "Strong pharmacy supply chain",
+            "Tata brand trust"
+          ],
+          "weaknesses": [
+            "Less focus on practice management software"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "",
+            "meta_description": ""
+          }
+        },
+        {
+          "name": "Apollo 24|7",
+          "website": "https://www.apollo247.com",
+          "main_service": "Integrated Healthcare",
+          "target_market": "India",
+          "strengths": [
+            "Physical hospital network",
+            "Diagnostic integration"
+          ],
+          "weaknesses": [
+            "Higher price perception"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Apollo 247 - Online Doctor Consultation & Book Lab Tests at Home",
+            "meta_description": "Apollo 24|7 helps you get treated from Apollo certified doctors at any time of the day, wherever you are. The mobile app has features like e-consultation in 15 minutes, online pharmacy to doorstep del"
+          }
+        },
+        {
+          "name": "Pharmeasy",
+          "website": "https://pharmeasy.in",
+          "main_service": "Medicine Delivery",
+          "target_market": "India",
+          "strengths": [
+            "Aggressive discounting",
+            "Logistics network"
+          ],
+          "weaknesses": [
+            "Limited doctor consultation depth"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "PharmEasy – Online Pharmacy & Medical Store with Healthcare Services in India | 50 Lakhs+ Customers",
+            "meta_description": "PharmEasy, one of India's most trusted online pharmacy & medical stores, offers online medicine delivery, lab tests, online doctor consultation, home vaccination service and healthcare essentials acro"
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "Tata 1mg"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Main Service",
+          "your_brand": "Doctor Consultation & Booking",
+          "competitor": "Online Pharmacy"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Target Market",
+          "your_brand": "India",
+          "competitor": "India"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Key Strength",
+          "your_brand": "Doctor Directory",
+          "competitor": "Supply Chain"
+        },
+        {
+          "competitor_name": "Tata 1mg",
+          "comparison": "Opportunity",
+          "your_brand": "Expansion into rural health",
+          "competitor": "SaaS integration"
+        },
+        {
+          "competitor_name": "Apollo 24|7",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "Apollo 24|7"
+        },
+        {
+          "competitor_name": "Apollo 24|7",
+          "comparison": "Main Service",
+          "your_brand": "Doctor Consultation & Booking",
+          "competitor": "Integrated Hospital Care"
+        },
+        {
+          "competitor_name": "Apollo 24|7",
+          "comparison": "Target Market",
+          "your_brand": "India",
+          "competitor": "India"
+        },
+        {
+          "competitor_name": "Apollo 24|7",
+          "comparison": "Key Strength",
+          "your_brand": "Doctor Directory",
+          "competitor": "Physical Infrastructure"
+        },
+        {
+          "competitor_name": "Apollo 24|7",
+          "comparison": "Opportunity",
+          "your_brand": "Expansion into rural health",
+          "competitor": "Digital platform scaling"
+        },
+        {
+          "competitor_name": "Pharmeasy",
+          "comparison": "Brand Name",
+          "your_brand": "Practo",
+          "competitor": "Pharmeasy"
+        },
+        {
+          "competitor_name": "Pharmeasy",
+          "comparison": "Main Service",
+          "your_brand": "Doctor Consultation & Booking",
+          "competitor": "Medicine Delivery"
+        },
+        {
+          "competitor_name": "Pharmeasy",
+          "comparison": "Target Market",
+          "your_brand": "India",
+          "competitor": "India"
+        },
+        {
+          "competitor_name": "Pharmeasy",
+          "comparison": "Key Strength",
+          "your_brand": "Doctor Directory",
+          "competitor": "Logistics"
+        },
+        {
+          "competitor_name": "Pharmeasy",
+          "comparison": "Opportunity",
+          "your_brand": "Expansion into rural health",
+          "competitor": "Doctor network growth"
+        }
+      ],
+      "strengths": [
+        "Extensive doctor database",
+        "B2B software integration (Ray/Insta)",
+        "Trusted brand reputation"
+      ],
+      "opportunities": [
+        "Expansion into rural healthcare markets",
+        "Enhanced AI-driven diagnostic tools",
+        "Personalized health subscription plans"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "best online doctor consultation India",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Patients",
+        "search_volume": null
+      },
+      {
+        "query": "Practo app features for clinics",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Medium",
+        "target_audience": "Doctors",
+        "search_volume": null
+      },
+      {
+        "query": "how to book lab tests online",
+        "platforms": [
+          "Facebook"
+        ],
+        "intent": "Transactional",
+        "business_relevance": "High",
+        "target_audience": "Patients",
+        "search_volume": null
+      },
+      {
+        "query": "Practo health tips for daily life",
+        "platforms": [
+          "Instagram"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Low",
+        "target_audience": "General Public",
+        "search_volume": null
+      },
+      {
+        "query": "digital healthcare trends 2024",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Medium",
+        "target_audience": "Industry Professionals",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "online doctor consultation",
+      "secondary_keywords": [
+        "book doctor appointment",
+        "order medicine online",
+        "diagnostic lab tests",
+        "practice management software"
+      ],
+      "long_tail_keywords": [
+        "find best gynecologist near me",
+        "online medicine delivery in India",
+        "Practo Ray software for clinics"
+      ],
+      "business_keywords": [
+        "telemedicine",
+        "digital health",
+        "HIMS",
+        "healthcare accessibility"
+      ],
+      "recommended_title": "Practo: Online Doctor Consultation, Appointments & Medicine",
+      "meta_description": "Consult top doctors online, book in-clinic appointments, order medicines, and schedule lab tests with Practo. Quality healthcare at your fingertips.",
+      "supporting_content": {
+        "landing_pages": [
+          "/consult",
+          "/medicine",
+          "/diagnostics"
+        ],
+        "industry_pages": [
+          "/for-doctors",
+          "/for-hospitals"
+        ],
+        "faqs": [
+          "/help/patient-faq",
+          "/help/doctor-faq"
+        ],
+        "blog_topics": [
+          "Benefits of Telemedicine",
+          "Managing Clinic Efficiency"
+        ],
+        "location_pages": [
+          "/doctors/delhi",
+          "/doctors/mumbai",
+          "/doctors/bangalore"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Online Doctor Consultation",
+        "description": "Connect with specialists via video call.",
+        "target_industry": "Healthcare",
+        "target_customer": "Patients",
+        "main_benefit": "Convenience",
+        "source": "website"
+      },
+      {
+        "name": "In-clinic Appointment Booking",
+        "description": "Schedule physical visits to verified doctors.",
+        "target_industry": "Healthcare",
+        "target_customer": "Patients",
+        "main_benefit": "Accessibility",
+        "source": "website"
+      },
+      {
+        "name": "Medicine Delivery",
+        "description": "Home delivery of medicines from verified pharmacies.",
+        "target_industry": "Healthcare",
+        "target_customer": "Patients",
+        "main_benefit": "Time-saving",
+        "source": "website"
+      },
+      {
+        "name": "Diagnostic Tests",
+        "description": "Home collection for lab tests.",
+        "target_industry": "Healthcare",
+        "target_customer": "Patients",
+        "main_benefit": "Safety",
+        "source": "website"
+      },
+      {
+        "name": "Practice Management Software",
+        "description": "Ray and Insta software for clinics and hospitals.",
+        "target_industry": "Healthcare",
+        "target_customer": "Doctors/Hospitals",
+        "main_benefit": "Operational efficiency",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Patients seeking medical advice",
+        "Doctors managing clinics"
+      ],
+      "secondary_audience": [
+        "Hospital administrators",
+        "Caregivers"
+      ],
+      "industries": [
+        "Healthcare",
+        "Pharmaceuticals",
+        "Health-Tech"
+      ],
+      "business_types": [
+        "Clinics",
+        "Hospitals",
+        "Diagnostic Centers",
+        "Pharmacies"
+      ],
+      "customer_profiles": [
+        "Urban professionals",
+        "Chronic patients",
+        "Busy parents"
+      ],
+      "geographic_focus": [
+        "India"
+      ],
+      "customer_needs": [
+        "Affordable care",
+        "Verified information",
+        "Convenience"
+      ],
+      "interests": [
+        "Wellness",
+        "Preventive health",
+        "Digital health solutions"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Patients",
+          "business_type": "B2C",
+          "requirement": "Fast access to specialists"
+        },
+        {
+          "audience": "Doctors",
+          "business_type": "B2B",
+          "requirement": "Efficient patient management"
+        },
+        {
+          "audience": "Hospitals",
+          "business_type": "B2B",
+          "requirement": "Full-stack HIMS solutions"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "llm_seconds": 14.02,
+    "input_tokens": 1718,
+    "output_tokens": 2067,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

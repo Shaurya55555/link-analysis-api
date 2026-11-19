@@ -1,0 +1,26 @@
+# Request/response log (local run, 2026-11-19T14:02Z)
+# Shows: success, cache hit on repeat, SSRF blocks, invalid body, unreachable host.
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"url":"https://zerodha.com"}'
+{"success": true, "brand": "Zerodha", "competitors": ["Groww", "Upstox", "Angel One"], "comparison_rows": 15, "queries": 5, "services": ["Kite Trading Platform", "Coin Mutual Funds", "Console Reporting", "Kite Connect API", "Varsity Market Education"], "meta": {"provider": "gemini", "model": "gemini-3.5-flash-lite", "llm_seconds": 16.92, "input_tokens": 2015, "output_tokens": 3285, "cached": false, "pages_read": 3, "request_id": "162c1d7ba53b", "notes": []}}
+[HTTP200 in 19.409303s]
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"url":"https://zerodha.com"}'
+{"success": true, "brand": "Zerodha", "competitors": ["Groww", "Upstox", "Angel One"], "comparison_rows": 15, "queries": 5, "services": ["Kite Trading Platform", "Coin Mutual Funds", "Console Reporting", "Kite Connect API", "Varsity Market Education"], "meta": {"provider": "gemini", "model": "gemini-3.5-flash-lite", "llm_seconds": 16.92, "input_tokens": 2015, "output_tokens": 3285, "cached": true, "pages_read": 3, "request_id": "4ea402a7a76a", "notes": []}}
+[HTTP200 in 1.440248s]
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"url":"http://169.254.169.254/latest/meta-data"}'
+{"success": false, "error": "URL resolves to a private or internal address", "code": "invalid_or_blocked_url"}
+[HTTP400 in 0.416006s]
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"url":"http://localhost:4000/health"}'
+{"success": false, "error": "Host is not allowed", "code": "invalid_or_blocked_url"}
+[HTTP400 in 1.056111s]
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"link":"zerodha.com"}'
+{"success": false, "error": "Body must be JSON like {\"url\": \"https://example.com\"}", "code": "invalid_request"}
+[HTTP422 in 0.006281s]
+
+$ curl -X POST http://127.0.0.1:4000/link-analysis -d '{"url":"https://this-domain-does-not-exist-12345.com"}'
+{"success": false, "error": "Host could not be resolved: this-domain-does-not-exist-12345.com", "code": "website_unreachable"}
+[HTTP502 in 0.723906s]

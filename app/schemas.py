@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class AnalysisRequest(BaseModel):
@@ -25,14 +25,23 @@ class Competitor(BaseModel):
 
 
 class ComparisonRow(BaseModel):
+    competitor_name: str = ""
     comparison: str
     your_brand: str
     competitor: str
 
 
+def _cap(n):
+    """Keep at most n items (models sometimes over-deliver); min length is enforced by Field."""
+    def _v(cls, v):
+        return v[:n] if isinstance(v, list) else v
+    return _v
+
+
 class CompetitorAnalysis(BaseModel):
     brand_overview: str
-    competitors: List[Competitor]
+    competitors: List[Competitor] = Field(min_length=3)
+    _cap_c = field_validator("competitors", mode="before")(_cap(5))
     comparison_table: List[ComparisonRow] = []
     strengths: List[str] = []
     opportunities: List[str] = []
@@ -94,10 +103,12 @@ class TargetAudience(BaseModel):
 
 class Analysis(BaseModel):
     competitor_analysis: CompetitorAnalysis
-    target_search_queries: List[SearchQuery]
+    target_search_queries: List[SearchQuery] = Field(min_length=5)
     seo_improvements: SEO
-    top_services: List[Service]
+    top_services: List[Service] = Field(min_length=5)
     target_audience: TargetAudience
+    _cap_q = field_validator("target_search_queries", mode="before")(_cap(5))
+    _cap_s = field_validator("top_services", mode="before")(_cap(5))
 
 
 class LLMOutput(BaseModel):
@@ -115,6 +126,8 @@ class Meta(BaseModel):
     output_tokens: Optional[int] = None
     cached: bool = False
     pages_read: int = 1
+    request_id: Optional[str] = None
+    notes: List[str] = []
 
 
 class AnalysisResponse(BaseModel):

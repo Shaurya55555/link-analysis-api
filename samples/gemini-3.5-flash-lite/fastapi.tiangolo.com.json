@@ -1,0 +1,417 @@
+{
+  "success": true,
+  "website": "https://fastapi.tiangolo.com",
+  "brand": {
+    "name": "FastAPI",
+    "category": "Python Web Framework",
+    "summary": "FastAPI is a modern, high-performance web framework for building APIs with Python based on standard Python type hints."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "FastAPI provides a fast, easy-to-use, robust, and standards-based framework for Python API development, heavily backed by major tech players like Microsoft, Netflix, and Uber.",
+      "competitors": [
+        {
+          "name": "Flask",
+          "website": "https://flask.palletsprojects.com",
+          "main_service": "Micro web framework for Python",
+          "target_market": "Python developers building small to medium web apps and APIs",
+          "strengths": [
+            "Lightweight",
+            "Highly flexible",
+            "Large ecosystem"
+          ],
+          "weaknesses": [
+            "Lack of native async support by default",
+            "Requires third-party extensions for validation and documentation"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Welcome to Flask — Flask Documentation (3.1.x)",
+            "meta_description": ""
+          }
+        },
+        {
+          "name": "Django REST Framework",
+          "website": "https://www.django-rest-framework.org",
+          "main_service": "Web API framework for Django",
+          "target_market": "Enterprise Python developers using Django",
+          "strengths": [
+            "Feature-rich",
+            "Robust ORM integration",
+            "Built-in authentication"
+          ],
+          "weaknesses": [
+            "Heavier footprint",
+            "Steeper learning curve",
+            "Opinionated structure"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Django REST framework",
+            "meta_description": "Django REST framework - Web APIs for Django"
+          }
+        },
+        {
+          "name": "Express.js",
+          "website": "https://expressjs.com",
+          "main_service": "Node.js web application framework",
+          "target_market": "JavaScript/Node.js backend developers",
+          "strengths": [
+            "Massive ecosystem",
+            "Very fast",
+            "Ubiquitous in JS stack"
+          ],
+          "weaknesses": [
+            "Not Python-based",
+            "Requires manual setup for typing and documentation"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Express.js · Node.js web application framework",
+            "meta_description": "Fast, unopinionated, minimalist web framework for Node.js"
+          }
+        },
+        {
+          "name": "Gin",
+          "website": "https://gin-gonic.com",
+          "main_service": "HTTP web framework written in Go",
+          "target_market": "Go developers building high-performance microservices",
+          "strengths": [
+            "Extremely high performance",
+            "Minimal memory footprint"
+          ],
+          "weaknesses": [
+            "Written in Go, not Python",
+            "Manual OpenAPI setup required"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Gin Web Framework | Gin Web Framework",
+            "meta_description": "The fastest full-featured web framework for Go. Crystal clear."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Flask",
+          "comparison": "Flask is a micro-framework requiring manual setup for data validation and documentation, whereas FastAPI provides automatic interactive docs and data validation out of the box using Python types.",
+          "your_brand": "FastAPI",
+          "competitor": "Flask"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Flask offers basic routing and request handling, while FastAPI delivers high-performance async API development with automatic OpenAPI/Swagger documentation.",
+          "your_brand": "High-performance Python API framework",
+          "competitor": "Micro web framework"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Both target Python developers, but FastAPI specifically targets modern developers prioritizing typing, speed, and automated documentation.",
+          "your_brand": "Modern Python API developers",
+          "competitor": "General Python web developers"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Flask's strength is absolute minimalism and flexibility, while FastAPI's strength is exceptional performance combined with automatic validation and editor autocompletion.",
+          "your_brand": "High performance & auto-docs",
+          "competitor": "Flexibility & minimalism"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "FastAPI can capture developers migrating from older Flask apps seeking native async support and reduced boilerplate code.",
+          "your_brand": "Capture developers seeking async migration",
+          "competitor": "Maintain legacy simplicity"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Django REST Framework relies on the full Django stack, whereas FastAPI is independent, lighter, and optimized purely for fast API creation.",
+          "your_brand": "FastAPI",
+          "competitor": "Django REST Framework"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "DRF provides browsable APIs tied to Django ORM; FastAPI provides standalone asynchronous API building based on standard Python type hints.",
+          "your_brand": "High-performance Python API framework",
+          "competitor": "Django-integrated API framework"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "DRF targets enterprise teams locked into Django; FastAPI targets teams building high-speed microservices and ML endpoints.",
+          "your_brand": "Modern Python API developers",
+          "competitor": "Enterprise Django developers"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "DRF leverages Django's mature ecosystem; FastAPI provides unmatched coding speed, reduced bugs, and native async support.",
+          "your_brand": "High performance & auto-docs",
+          "competitor": "Deep Django ecosystem integration"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "FastAPI can position itself as the go-to solution for lightweight microservices and machine learning model serving over monolithic frameworks.",
+          "your_brand": "Target ML & microservices sectors",
+          "competitor": "Expand enterprise tooling"
+        },
+        {
+          "competitor_name": "Express.js",
+          "comparison": "Express operates in the Node.js ecosystem, whereas FastAPI offers equivalent performance in Python leveraging standard type hints.",
+          "your_brand": "FastAPI",
+          "competitor": "Express.js"
+        },
+        {
+          "competitor_name": "Express.js",
+          "comparison": "Express is a JS server framework, while FastAPI is a Python API framework with automatic data parsing.",
+          "your_brand": "High-performance Python API framework",
+          "competitor": "Node.js web application framework"
+        },
+        {
+          "competitor_name": "Express.js",
+          "comparison": "Express targets JavaScript developers; FastAPI targets Python developers looking for Node-like or Go-like speed.",
+          "your_brand": "Modern Python API developers",
+          "competitor": "JavaScript backend developers"
+        },
+        {
+          "competitor_name": "Express.js",
+          "comparison": "Express has massive JS adoption; FastAPI stands out with automatic interactive documentation and deep editor autocompletion.",
+          "your_brand": "High performance & auto-docs",
+          "competitor": "Massive JS ecosystem adoption"
+        },
+        {
+          "competitor_name": "Express.js",
+          "comparison": "FastAPI can attract data science and AI teams transitioning Python machine learning models directly into production web services.",
+          "your_brand": "Capture Python AI/ML deployment workloads",
+          "competitor": "Enhance full-stack JS integration"
+        }
+      ],
+      "strengths": [
+        "Very high performance on par with NodeJS and Go",
+        "Fast to code, increasing feature development speed by 200% to 300%",
+        "Automatic interactive documentation using Swagger UI and ReDoc",
+        "Standards-based compatibility with OpenAPI and JSON Schema",
+        "Fewer human-induced errors through deep editor support and autocompletion"
+      ],
+      "opportunities": [
+        "Expand adoption in enterprise machine learning and AI model serving",
+        "Grow the ecosystem around companion tools like Typer for CLIs",
+        "Increase usage in large-scale cloud services and microservice orchestrations",
+        "Enhance documentation and learning resources for junior developers"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "fastest python web framework for building apis",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Captures developers searching for high-performance Python frameworks matching FastAPI's core value proposition.",
+        "target_audience": "Backend Python Developers",
+        "search_volume": null
+      },
+      {
+        "query": "how to build production ready rest api with python",
+        "platforms": [
+          "Google",
+          "LinkedIn"
+        ],
+        "intent": "Educational",
+        "business_relevance": "Directs software engineers looking for robust, production-ready frameworks to FastAPI documentation.",
+        "target_audience": "Software Engineers",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi vs flask performance for machine learning services",
+        "platforms": [
+          "X",
+          "Google"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "Engages developers comparing frameworks for ML model deployment, a major use case for FastAPI.",
+        "target_audience": "Machine Learning Engineers",
+        "search_volume": null
+      },
+      {
+        "query": "modern python web frameworks with automatic swagger documentation",
+        "platforms": [
+          "LinkedIn",
+          "Google"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "Attracts architects and leads seeking developer productivity and built-in API documentation.",
+        "target_audience": "Technical Leads",
+        "search_volume": null
+      },
+      {
+        "query": "building async rest apis with pydantic and starlette",
+        "platforms": [
+          "Instagram",
+          "Google"
+        ],
+        "intent": "Technical",
+        "business_relevance": "Targets developers interested in the underlying technologies powering FastAPI.",
+        "target_audience": "Python Developers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "FastAPI python web framework",
+      "secondary_keywords": [
+        "high performance python api",
+        "automatic interactive api docs",
+        "pydantic python framework",
+        "starlette web framework"
+      ],
+      "long_tail_keywords": [
+        "fastest python framework for rest apis",
+        "how to build production ready apis with python",
+        "python api framework with automatic swagger documentation"
+      ],
+      "business_keywords": [
+        "FastAPI",
+        "REST server",
+        "OpenAPI",
+        "JSON Schema",
+        "Python type hints"
+      ],
+      "recommended_title": "FastAPI - High Performance Python Web Framework for APIs",
+      "meta_description": "FastAPI is a modern, high-performance web framework for building APIs with Python based on standard type hints. Fast to code, ready for production.",
+      "supporting_content": {
+        "landing_pages": [
+          "/features/",
+          "/about/"
+        ],
+        "industry_pages": [
+          "/ml-services/",
+          "/enterprise-apis/"
+        ],
+        "faqs": [
+          "/help/installation/",
+          "/help/async-await/"
+        ],
+        "blog_topics": [
+          "Building Machine Learning Prediction Servers with FastAPI",
+          "Why Netflix and Microsoft Choose FastAPI for Microservices",
+          "Maximizing Developer Productivity with Python Type Hints"
+        ],
+        "location_pages": []
+      }
+    },
+    "top_services": [
+      {
+        "name": "High-Performance API Development",
+        "description": "Build extremely fast web APIs in Python with performance on par with NodeJS and Go.",
+        "target_industry": "Software & Technology",
+        "target_customer": "Backend Developers",
+        "main_benefit": "Exceptional execution speed and low latency",
+        "source": "website"
+      },
+      {
+        "name": "Automatic Interactive Documentation",
+        "description": "Generate Swagger UI and ReDoc documentation automatically from standard Python type hints.",
+        "target_industry": "Software & Technology",
+        "target_customer": "API Consumers and Developers",
+        "main_benefit": "Zero manual doc maintenance and interactive testing",
+        "source": "website"
+      },
+      {
+        "name": "Data Validation and Serialization",
+        "description": "Validate deeply nested JSON objects and convert data types automatically using Pydantic.",
+        "target_industry": "Software & Technology",
+        "target_customer": "Data Engineers",
+        "main_benefit": "Reduced human-induced errors and clear validation errors",
+        "source": "website"
+      },
+      {
+        "name": "Machine Learning Model Serving",
+        "description": "Spawn REST servers to serve prediction endpoints for AI and machine learning models.",
+        "target_industry": "Artificial Intelligence & ML",
+        "target_customer": "ML Engineers",
+        "main_benefit": "Reliable and scalable ML model integration into production products",
+        "source": "website"
+      },
+      {
+        "name": "CLI Application Building via Typer",
+        "description": "Build robust command-line interface applications with intuitive design and automatic help generation.",
+        "target_industry": "Software & Technology",
+        "target_customer": "DevOps Engineers",
+        "main_benefit": "Fast CLI development with FastAPI-like ergonomics",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Python Developers",
+        "Backend Engineers",
+        "Software Architects"
+      ],
+      "secondary_audience": [
+        "Machine Learning Engineers",
+        "DevOps Engineers",
+        "Full-Stack Developers"
+      ],
+      "industries": [
+        "Software Development",
+        "Artificial Intelligence",
+        "Cloud Computing",
+        "Enterprise Technology"
+      ],
+      "business_types": [
+        "Open Source Projects",
+        "Tech Startups",
+        "Enterprise Software Companies"
+      ],
+      "customer_profiles": [
+        "Developers seeking high-performance async frameworks",
+        "Technical leads standardizing on API-first architectures",
+        "ML practitioners deploying prediction models"
+      ],
+      "geographic_focus": [
+        "Global"
+      ],
+      "customer_needs": [
+        "High execution performance",
+        "Reduced code duplication",
+        "Automatic API documentation",
+        "Robust data validation"
+      ],
+      "interests": [
+        "Python programming",
+        "RESTful APIs",
+        "OpenAPI standards",
+        "Asynchronous programming"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "Backend Python Developers",
+          "business_type": "Tech Startups",
+          "requirement": "Rapid feature development and high productivity"
+        },
+        {
+          "audience": "Machine Learning Engineers",
+          "business_type": "Enterprise AI Teams",
+          "requirement": "Scalable REST servers for prediction models"
+        },
+        {
+          "audience": "Software Architects",
+          "business_type": "Enterprise Software Companies",
+          "requirement": "Standards-compliant OpenAPI documentation and robust security"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "llm_seconds": 18.64,
+    "input_tokens": 3067,
+    "output_tokens": 3596,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

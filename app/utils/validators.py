@@ -10,6 +10,10 @@ class UnsafeURLError(ValueError):
     """Raised when a URL is malformed or points at a private/internal target."""
 
 
+class UnresolvableHostError(UnsafeURLError):
+    """The host name does not resolve (a reachability problem, not a security block)."""
+
+
 def _is_public_ip(ip: str) -> bool:
     addr = ipaddress.ip_address(ip)
     return not (
@@ -49,8 +53,8 @@ def validate_url(url: str) -> str:
 
     try:
         infos = socket.getaddrinfo(host, port, proto=socket.IPPROTO_TCP)
-    except socket.gaierror as exc:
-        raise UnsafeURLError(f"Host could not be resolved: {host}") from exc
+    except (OSError, UnicodeError) as exc:  # gaierror on most hosts; plain OSError on some serverless runtimes
+        raise UnresolvableHostError(f"Host could not be resolved: {host}") from exc
     for info in infos:
         ip = info[4][0].split("%")[0]
         if not _is_public_ip(ip):

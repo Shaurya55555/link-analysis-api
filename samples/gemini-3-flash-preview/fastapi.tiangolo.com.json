@@ -1,0 +1,387 @@
+{
+  "success": true,
+  "website": "https://fastapi.tiangolo.com",
+  "brand": {
+    "name": "FastAPI",
+    "category": "Python Web Framework",
+    "summary": "FastAPI is a modern, high-performance web framework for building APIs with Python based on standard Python type hints, designed to increase developer productivity and reduce errors."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "FastAPI positions itself as a high-performance alternative to traditional Python frameworks, leveraging Starlette and Pydantic to provide speed comparable to Node.js and Go.",
+      "competitors": [
+        {
+          "name": "Flask",
+          "website": "https://flask.palletsprojects.com",
+          "main_service": "Micro Web Framework",
+          "target_market": "General Python Developers",
+          "strengths": [
+            "Extreme simplicity",
+            "Large ecosystem",
+            "Extensive documentation"
+          ],
+          "weaknesses": [
+            "No native async support",
+            "Manual data validation",
+            "Slower performance"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Welcome to Flask — Flask Documentation (3.1.x)",
+            "meta_description": ""
+          }
+        },
+        {
+          "name": "Django REST Framework",
+          "website": "https://www.django-rest-framework.org",
+          "main_service": "REST API Toolkit",
+          "target_market": "Enterprise Django Users",
+          "strengths": [
+            "Robust ORM integration",
+            "Built-in authentication",
+            "Mature community"
+          ],
+          "weaknesses": [
+            "High complexity",
+            "Heavyweight",
+            "Slower than modern async frameworks"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Django REST framework",
+            "meta_description": "Django REST framework - Web APIs for Django"
+          }
+        },
+        {
+          "name": "Litestar",
+          "website": "https://litestar.dev",
+          "main_service": "High-performance API Framework",
+          "target_market": "Performance-critical Python Apps",
+          "strengths": [
+            "Feature-rich",
+            "High performance",
+            "Strict typing"
+          ],
+          "weaknesses": [
+            "Smaller community",
+            "Newer ecosystem",
+            "Steeper learning curve"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Litestar: The Modern Python ASGI Framework",
+            "meta_description": "Build blazing fast APIs with automatic documentation, dependency injection, and type safety. Litestar makes complex web development simple and intuitive."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "Flask",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Flask"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Main Service",
+          "your_brand": "High-performance API Framework",
+          "competitor": "Micro Web Framework"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Target Market",
+          "your_brand": "Modern Python Developers",
+          "competitor": "General Python Developers"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Key Strength",
+          "your_brand": "Speed and Type Safety",
+          "competitor": "Simplicity and Flexibility"
+        },
+        {
+          "competitor_name": "Flask",
+          "comparison": "Opportunity",
+          "your_brand": "Enterprise Adoption",
+          "competitor": "Native Async Support"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Django REST Framework"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Main Service",
+          "your_brand": "High-performance API Framework",
+          "competitor": "REST API Toolkit"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Target Market",
+          "your_brand": "Modern Python Developers",
+          "competitor": "Django Ecosystem"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Key Strength",
+          "your_brand": "Automatic Documentation",
+          "competitor": "Robustness and ORM"
+        },
+        {
+          "competitor_name": "Django REST Framework",
+          "comparison": "Opportunity",
+          "your_brand": "Developer Productivity",
+          "competitor": "Performance Optimization"
+        },
+        {
+          "competitor_name": "Litestar",
+          "comparison": "Brand Name",
+          "your_brand": "FastAPI",
+          "competitor": "Litestar"
+        },
+        {
+          "competitor_name": "Litestar",
+          "comparison": "Main Service",
+          "your_brand": "High-performance API Framework",
+          "competitor": "High-performance API Framework"
+        },
+        {
+          "competitor_name": "Litestar",
+          "comparison": "Target Market",
+          "your_brand": "Modern Python Developers",
+          "competitor": "Performance-critical Apps"
+        },
+        {
+          "competitor_name": "Litestar",
+          "comparison": "Key Strength",
+          "your_brand": "Market Dominance",
+          "competitor": "Feature Completeness"
+        },
+        {
+          "competitor_name": "Litestar",
+          "comparison": "Opportunity",
+          "your_brand": "Community Growth",
+          "competitor": "Market Awareness"
+        }
+      ],
+      "strengths": [
+        "Performance on par with Node.js and Go",
+        "Automatic interactive API documentation",
+        "Standardized Python type hint usage",
+        "High developer productivity (200-300% increase)"
+      ],
+      "opportunities": [
+        "Expansion into CLI tools via Typer",
+        "Dominance in Machine Learning service deployment",
+        "Integration into core enterprise products"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "fastapi vs flask performance",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Comparative Research",
+        "business_relevance": "High",
+        "target_audience": "Backend Developers",
+        "search_volume": null
+      },
+      {
+        "query": "python api development best practices",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Professional Education",
+        "business_relevance": "Medium",
+        "target_audience": "Tech Leads",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi tutorial for beginners",
+        "platforms": [
+          "Instagram"
+        ],
+        "intent": "Educational",
+        "business_relevance": "High",
+        "target_audience": "Student Developers",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi machine learning deployment",
+        "platforms": [
+          "Facebook"
+        ],
+        "intent": "Solution Seeking",
+        "business_relevance": "High",
+        "target_audience": "Data Scientists",
+        "search_volume": null
+      },
+      {
+        "query": "fastapi latest release features",
+        "platforms": [
+          "X"
+        ],
+        "intent": "News and Updates",
+        "business_relevance": "Medium",
+        "target_audience": "Open Source Contributors",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "FastAPI",
+      "secondary_keywords": [
+        "Python API framework",
+        "high performance web framework",
+        "OpenAPI",
+        "Pydantic validation"
+      ],
+      "long_tail_keywords": [
+        "build production ready python api",
+        "automatic swagger documentation python",
+        "fastest python web framework 2025"
+      ],
+      "business_keywords": [
+        "developer productivity",
+        "ml service deployment",
+        "api first development strategy"
+      ],
+      "recommended_title": "FastAPI - High Performance Python API Framework",
+      "meta_description": "Build production-ready APIs with Python. FastAPI offers high performance, automatic documentation, and easy-to-learn syntax based on standard type hints.",
+      "supporting_content": {
+        "landing_pages": [
+          "FastAPI for Machine Learning",
+          "Enterprise API Strategy"
+        ],
+        "industry_pages": [
+          "FastAPI in Fintech",
+          "Healthcare Data APIs"
+        ],
+        "faqs": [
+          "How does FastAPI compare to Flask?",
+          "Is FastAPI production ready?"
+        ],
+        "blog_topics": [
+          "Reducing Developer Errors with Pydantic",
+          "Scaling APIs at Netflix with FastAPI"
+        ],
+        "location_pages": []
+      }
+    },
+    "top_services": [
+      {
+        "name": "High-performance API Development",
+        "description": "Building web APIs with speed comparable to NodeJS and Go using Starlette.",
+        "target_industry": "Software Development",
+        "target_customer": "Backend Engineers",
+        "main_benefit": "Extreme execution speed",
+        "source": "website"
+      },
+      {
+        "name": "Automatic Interactive API Documentation",
+        "description": "Generation of Swagger UI and ReDoc interfaces directly from code.",
+        "target_industry": "Tech",
+        "target_customer": "Frontend Developers",
+        "main_benefit": "Zero-effort documentation",
+        "source": "website"
+      },
+      {
+        "name": "Data Validation and Serialization",
+        "description": "Automatic validation of complex JSON objects using Pydantic models.",
+        "target_industry": "Data Science",
+        "target_customer": "ML Engineers",
+        "main_benefit": "40% reduction in developer errors",
+        "source": "website"
+      },
+      {
+        "name": "Security and Authentication Integration",
+        "description": "Built-in support for OAuth2, JWT tokens, and API keys.",
+        "target_industry": "Cybersecurity",
+        "target_customer": "Security Engineers",
+        "main_benefit": "Production-ready security standards",
+        "source": "website"
+      },
+      {
+        "name": "Dependency Injection System",
+        "description": "A powerful and intuitive dependency injection system for managing components.",
+        "target_industry": "Software Engineering",
+        "target_customer": "System Architects",
+        "main_benefit": "Code reusability and testability",
+        "source": "website"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Python Developers",
+        "Backend Engineers"
+      ],
+      "secondary_audience": [
+        "Data Scientists",
+        "Machine Learning Engineers"
+      ],
+      "industries": [
+        "Technology",
+        "Finance",
+        "Artificial Intelligence"
+      ],
+      "business_types": [
+        "SaaS Startups",
+        "Enterprise Tech Companies",
+        "Open Source Projects"
+      ],
+      "customer_profiles": [
+        "Senior Software Architects",
+        "Full-stack Developers",
+        "MLOps Engineers"
+      ],
+      "geographic_focus": [
+        "Global"
+      ],
+      "customer_needs": [
+        "High performance",
+        "Fast development cycles",
+        "Type safety",
+        "Easy documentation"
+      ],
+      "interests": [
+        "Open Source",
+        "Python Programming",
+        "API Design",
+        "Asynchronous Programming"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "ML Engineers",
+          "business_type": "AI Startup",
+          "requirement": "Fast model serving"
+        },
+        {
+          "audience": "Tech Leads",
+          "business_type": "Enterprise",
+          "requirement": "Production-ready robustness"
+        },
+        {
+          "audience": "Junior Developers",
+          "business_type": "Education",
+          "requirement": "Easy learning curve"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3-flash-preview",
+    "llm_seconds": 19.17,
+    "input_tokens": 3067,
+    "output_tokens": 2178,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

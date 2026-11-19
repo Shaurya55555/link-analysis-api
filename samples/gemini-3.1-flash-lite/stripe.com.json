@@ -1,0 +1,382 @@
+{
+  "success": true,
+  "website": "https://stripe.com/in",
+  "brand": {
+    "name": "Stripe",
+    "category": "Financial Infrastructure and Payment Processing",
+    "summary": "Stripe provides a comprehensive financial infrastructure platform for businesses of all sizes, enabling them to accept payments, manage billing, prevent fraud, and embed financial services globally."
+  },
+  "analysis": {
+    "competitor_analysis": {
+      "brand_overview": "Stripe is a market-leading, developer-first financial platform known for its robust APIs, global reach, and high-uptime reliability.",
+      "competitors": [
+        {
+          "name": "PayPal",
+          "website": "https://www.paypal.com",
+          "main_service": "Digital Wallet and Payment Processing",
+          "target_market": "Consumers and SMBs",
+          "strengths": [
+            "High brand trust",
+            "Global consumer adoption"
+          ],
+          "weaknesses": [
+            "Less developer-centric",
+            "Higher perceived complexity for custom integrations"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": false,
+            "note": "HTTP 403"
+          }
+        },
+        {
+          "name": "Adyen",
+          "website": "https://www.adyen.com",
+          "main_service": "Enterprise Payment Processing",
+          "target_market": "Large global enterprises",
+          "strengths": [
+            "Unified commerce",
+            "Strong enterprise focus"
+          ],
+          "weaknesses": [
+            "Less accessible for small startups",
+            "Higher barrier to entry"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Adyen: Fintech platform for enterprises - Adyen",
+            "meta_description": "Run payments, manage your data, and offer financial products in one platform. Adyen is purpose-built for the world's leading businesses."
+          }
+        },
+        {
+          "name": "Razorpay",
+          "website": "https://razorpay.com",
+          "main_service": "Payment Gateway for India",
+          "target_market": "Indian businesses",
+          "strengths": [
+            "Hyper-local focus",
+            "Deep integration with Indian banking"
+          ],
+          "weaknesses": [
+            "Limited global infrastructure compared to Stripe"
+          ],
+          "source": "ai_suggested",
+          "live_check": {
+            "reachable": true,
+            "page_title": "Razorpay - Best Payment Solution for Online Payments India",
+            "meta_description": "Online Payments India: Start Accepting Payments Instantly with Razorpay's Payment Suite, which Supports Netbanking, Credit Card & Debit Cards, UPI etc."
+          }
+        }
+      ],
+      "comparison_table": [
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "PayPal"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Main Service",
+          "your_brand": "Financial Infrastructure",
+          "competitor": "Digital Wallet"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Target Market",
+          "your_brand": "Global Businesses",
+          "competitor": "Consumers & SMBs"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Key Strength",
+          "your_brand": "Developer APIs",
+          "competitor": "Consumer Trust"
+        },
+        {
+          "competitor_name": "PayPal",
+          "comparison": "Opportunity",
+          "your_brand": "Expand local payment methods",
+          "competitor": "Improve developer experience"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "Adyen"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Main Service",
+          "your_brand": "Financial Infrastructure",
+          "competitor": "Enterprise Payments"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Target Market",
+          "your_brand": "All sizes",
+          "competitor": "Large Enterprises"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Key Strength",
+          "your_brand": "Ease of integration",
+          "competitor": "Unified commerce"
+        },
+        {
+          "competitor_name": "Adyen",
+          "comparison": "Opportunity",
+          "your_brand": "Capture enterprise market share",
+          "competitor": "Simplify for startups"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Brand Name",
+          "your_brand": "Stripe",
+          "competitor": "Razorpay"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Main Service",
+          "your_brand": "Financial Infrastructure",
+          "competitor": "Payment Gateway"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Target Market",
+          "your_brand": "Global",
+          "competitor": "India-focused"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Key Strength",
+          "your_brand": "Global scalability",
+          "competitor": "Local market expertise"
+        },
+        {
+          "competitor_name": "Razorpay",
+          "comparison": "Opportunity",
+          "your_brand": "Deepen local compliance",
+          "competitor": "Global expansion"
+        }
+      ],
+      "strengths": [
+        "Developer-friendly documentation",
+        "High uptime (99.9999%)",
+        "Comprehensive suite of financial tools",
+        "Global scalability"
+      ],
+      "opportunities": [
+        "Expansion into emerging markets",
+        "Advanced AI-driven fraud prevention",
+        "Embedded finance for SaaS platforms"
+      ]
+    },
+    "target_search_queries": [
+      {
+        "query": "how to accept international payments online",
+        "platforms": [
+          "Google"
+        ],
+        "intent": "Informational/Commercial",
+        "business_relevance": "High",
+        "target_audience": "Global e-commerce founders",
+        "search_volume": null
+      },
+      {
+        "query": "best payment gateway for SaaS billing",
+        "platforms": [
+          "LinkedIn"
+        ],
+        "intent": "Commercial",
+        "business_relevance": "High",
+        "target_audience": "SaaS product managers",
+        "search_volume": null
+      },
+      {
+        "query": "Stripe vs PayPal for small business",
+        "platforms": [
+          "X"
+        ],
+        "intent": "Comparison",
+        "business_relevance": "Medium",
+        "target_audience": "Small business owners",
+        "search_volume": null
+      },
+      {
+        "query": "how to integrate Stripe checkout",
+        "platforms": [
+          "Instagram"
+        ],
+        "intent": "Educational",
+        "business_relevance": "High",
+        "target_audience": "Developers",
+        "search_volume": null
+      },
+      {
+        "query": "Stripe payment processing fees explained",
+        "platforms": [
+          "Facebook"
+        ],
+        "intent": "Informational",
+        "business_relevance": "Medium",
+        "target_audience": "Finance managers",
+        "search_volume": null
+      }
+    ],
+    "seo_improvements": {
+      "primary_keyword": "financial infrastructure",
+      "secondary_keywords": [
+        "payment gateway",
+        "online payments",
+        "billing software",
+        "Stripe API"
+      ],
+      "long_tail_keywords": [
+        "how to accept payments globally",
+        "Stripe payment integration for SaaS",
+        "recurring billing models for business"
+      ],
+      "business_keywords": [
+        "revenue growth",
+        "payment optimization",
+        "fraud prevention",
+        "embedded finance"
+      ],
+      "recommended_title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+      "meta_description": "Stripe is a financial services platform that helps businesses accept payments, build flexible billing models, and manage money movement globally.",
+      "supporting_content": {
+        "landing_pages": [
+          "/payments",
+          "/billing",
+          "/connect"
+        ],
+        "industry_pages": [
+          "/enterprise",
+          "/startups"
+        ],
+        "faqs": [
+          "/pricing",
+          "/resources"
+        ],
+        "blog_topics": [
+          "The future of agentic commerce",
+          "Scaling SaaS revenue in 2025"
+        ],
+        "location_pages": [
+          "/in"
+        ]
+      }
+    },
+    "top_services": [
+      {
+        "name": "Stripe Payments",
+        "description": "Accept and optimize payments globally online and in-person.",
+        "target_industry": "E-commerce",
+        "target_customer": "Online retailers",
+        "main_benefit": "Increased conversion",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Billing",
+        "description": "Automate recurring billing and subscription management.",
+        "target_industry": "SaaS",
+        "target_customer": "Subscription businesses",
+        "main_benefit": "Revenue automation",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Radar",
+        "description": "AI-powered fraud protection for card payments.",
+        "target_industry": "Fintech",
+        "target_customer": "High-risk merchants",
+        "main_benefit": "Reduced chargebacks",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Connect",
+        "description": "Embed payments into your platform for multi-sided marketplaces.",
+        "target_industry": "Marketplaces",
+        "target_customer": "Platform owners",
+        "main_benefit": "Monetize transactions",
+        "source": "website"
+      },
+      {
+        "name": "Stripe Issuing",
+        "description": "Create and manage physical or virtual card programs.",
+        "target_industry": "Banking",
+        "target_customer": "Fintech startups",
+        "main_benefit": "Operational efficiency",
+        "source": "inferred"
+      }
+    ],
+    "target_audience": {
+      "primary_audience": [
+        "Software Developers",
+        "Business Founders"
+      ],
+      "secondary_audience": [
+        "Finance Managers",
+        "Product Managers"
+      ],
+      "industries": [
+        "SaaS",
+        "E-commerce",
+        "Marketplaces",
+        "Fintech"
+      ],
+      "business_types": [
+        "Startups",
+        "SMBs",
+        "Enterprises"
+      ],
+      "customer_profiles": [
+        "High-growth tech companies",
+        "Global e-commerce brands"
+      ],
+      "geographic_focus": [
+        "Global with specific focus on India"
+      ],
+      "customer_needs": [
+        "Reliability",
+        "Scalability",
+        "Ease of integration",
+        "Global payment support"
+      ],
+      "interests": [
+        "Digital transformation",
+        "Fintech innovation",
+        "Revenue optimization"
+      ],
+      "recommended_segments": [
+        {
+          "audience": "SaaS Founders",
+          "business_type": "B2B Software",
+          "requirement": "Flexible billing models"
+        },
+        {
+          "audience": "E-commerce Managers",
+          "business_type": "Retail",
+          "requirement": "High conversion checkout"
+        },
+        {
+          "audience": "Platform Developers",
+          "business_type": "Marketplace",
+          "requirement": "Embedded payment APIs"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "llm_seconds": 10.66,
+    "input_tokens": 3266,
+    "output_tokens": 2056,
+    "cached": false,
+    "pages_read": 3,
+    "request_id": null,
+    "notes": []
+  }
+}

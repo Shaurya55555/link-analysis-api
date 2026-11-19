@@ -30,7 +30,7 @@ Output schema (keys must match exactly):
   "competitor_analysis": {
     "brand_overview": str,
     "competitors": [{"name": str, "website": str|null, "main_service": str, "target_market": str, "strengths": [str], "weaknesses": [str]}],
-    "comparison_table": [{"comparison": str, "your_brand": str, "competitor": str}],
+    "comparison_table": [{"competitor_name": str, "comparison": str, "your_brand": str, "competitor": str}],
     "strengths": [str], "opportunities": [str]},
   "target_search_queries": [{"query": str, "platforms": [str], "intent": str, "business_relevance": str, "target_audience": str}],
   "seo_improvements": {"primary_keyword": str, "secondary_keywords": [str], "long_tail_keywords": [str], "business_keywords": [str],
@@ -42,7 +42,7 @@ Output schema (keys must match exactly):
     "recommended_segments": [{"audience": str, "business_type": str, "requirement": str}]}
  }
 }
-The comparison_table must compare the brand against the first competitor on: Brand Name, Main Service, Target Market, Key Strength, Opportunity."""
+The comparison_table must compare the brand against each of the first 3 competitors on these 5 rows: Brand Name, Main Service, Target Market, Key Strength, Opportunity (15 rows; set competitor_name on each)."""
 
 _cache: Dict[str, Tuple[float, AnalysisResponse]] = {}
 
@@ -76,12 +76,17 @@ def analyze(url: str, client: Optional[httpx.Client] = None) -> AnalysisResponse
         if parsed is None or result is None:
             raise LLMError("LLM output failed schema validation twice")
 
+        notes = []
+        primary = {"gemini": settings.gemini_model, "openai": settings.openai_model,
+                   "anthropic": settings.anthropic_model}.get(settings.llm_provider)
+        if result.model != primary:
+            notes.append(f"Primary model {primary} was unavailable; answered by fallback model {result.model}.")
         verify_competitors(parsed.analysis.competitor_analysis.competitors, client)
         response = AnalysisResponse(
             website=site.url, brand=parsed.brand, analysis=parsed.analysis,
             meta=Meta(provider=result.provider, model=result.model, llm_seconds=round(result.seconds, 2),
                       input_tokens=result.input_tokens, output_tokens=result.output_tokens,
-                      pages_read=len(site.pages)))
+                      pages_read=len(site.pages), notes=notes))
         _cache[site.url] = (time.time(), response)
         return response
     finally:
