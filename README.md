@@ -2,6 +2,18 @@
 
 FastAPI service that takes a website URL, extracts the real content, and uses an LLM to return five structured sections: competitor comparison, top 5 search queries, SEO improvements, top 5 services and target audience.
 
+## Live demo
+
+- Base URL: https://link-analysis-api-self.vercel.app
+- Endpoint: `POST https://link-analysis-api-self.vercel.app/link-analysis`
+- API docs: https://link-analysis-api-self.vercel.app/docs
+
+```bash
+curl -X POST https://link-analysis-api-self.vercel.app/link-analysis   -H "Content-Type: application/json" -d '{"url": "https://zerodha.com"}'
+```
+
+Deployed on Vercel (Python, 60 s function limit). An analysis takes roughly 15 to 30 s. Real outputs from the benchmark runs are in [`samples/`](samples/).
+
 ## Run locally
 
 ```bash
