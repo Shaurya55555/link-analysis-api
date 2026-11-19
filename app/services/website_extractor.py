@@ -91,7 +91,7 @@ def safe_get(url: str, client: httpx.Client) -> httpx.Response:
     raise FetchError("Too many redirects")
 
 
-def parse_page(url: str, html: str) -> Page:
+def parse_page(url: str, html) -> Page:
     soup = BeautifulSoup(html, "html.parser")
     page = Page(url=url)
     page.title = _squash(soup.title.get_text()) if soup.title else ""
@@ -152,13 +152,13 @@ def extract_site(url: str, client: Optional[httpx.Client] = None) -> ExtractedSi
             raise FetchError(f"The website could not be reached: {exc.__class__.__name__}") from exc
         if resp.status_code >= 400:
             raise FetchError(f"The website returned HTTP {resp.status_code}")
-        home = parse_page(str(resp.request.url), resp.text)
+        home = parse_page(str(resp.request.url), resp.content)
         pages = [home]
         for extra in _pick_extra_pages(home):
             try:
                 r = safe_get(extra, client)
                 if r.status_code < 400:
-                    pages.append(parse_page(str(r.request.url), r.text))
+                    pages.append(parse_page(str(r.request.url), r.content))
             except (UnsafeURLError, FetchError, httpx.HTTPError):
                 continue  # extra pages are best-effort
         total_text = sum(len(p.text) for p in pages)

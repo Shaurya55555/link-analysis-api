@@ -20,7 +20,7 @@ def verify_competitors(competitors: List[Competitor], client: httpx.Client) -> L
             if resp.status_code >= 400:
                 c.live_check = {"reachable": False, "note": f"HTTP {resp.status_code}"}
                 continue
-            page = parse_page(str(resp.request.url), resp.text)
+            page = parse_page(str(resp.request.url), resp.content)
             c.live_check = {"reachable": True, "page_title": page.title[:120],
                             "meta_description": page.meta_description[:200]}
         except (UnsafeURLError, FetchError, httpx.HTTPError) as exc:

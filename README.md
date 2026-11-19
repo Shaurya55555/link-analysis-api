@@ -65,7 +65,7 @@ Pricing is USD per 1M tokens, standard paid tier, non-batch, read from the vendo
 | OpenAI | `gpt-6-luna` | $0.10 / $0.50 | not verified | not verified | Cheapest listed; not checked further |
 | Anthropic | `claude-haiku-5-5` | $0.10 / $0.50 (prompts up to 100K) | 1M / 128K | Not confirmed on its model page | Prompts over 100K cost $0.50 / $2.50 |
 
-Not verified from primary pages in this run: the `gpt-6-luna` context window and JSON support, and whether Haiku 5.5 supports schema-enforced output (this app does not depend on it, because output is validated by Pydantic). Speed and accuracy are **not** claimed in this table, see the next section.
+Not verified from primary pages in this run: the `gpt-6-luna` context window and JSON support, and whether Haiku 5.5 supports schema-enforced output (this app does not depend on it, because output is validated by Pydantic). Speed and accuracy are not claimed in this table; see the measured results below.
 
 ### Estimated cost per analysis (ESTIMATE, not measured)
 
@@ -79,9 +79,20 @@ Assumption: about 4,500 input tokens (12,000 characters of cleaned content plus 
 
 At these sizes, output tokens dominate cost, so the long structured JSON is what to optimize first.
 
-### Measured results
+### Measured results (real runs, 2026-11-19)
 
-_To be filled from a live run (`python scripts/benchmark.py`): latency, token counts and JSON validity per model on the same 3 sites. Until then, no speed or accuracy claim is made._
+`python scripts/benchmark.py <urls>` against `gemini-3.5-flash-lite` (default settings, 1 run each, so treat as indicative not statistical). Full outputs are in `samples/`.
+
+| Site | Result | End-to-end s | LLM call s | Input tokens | Output tokens | Pages read |
+|---|---|---|---|---|---|---|
+| stripe.com | valid | 20.6 | 7.79 | 3,239 | 2,614 | 3 |
+| zerodha.com | valid | 13.2 | 7.89 | 2,223 | 2,729 | 3 |
+| fastapi.tiangolo.com | valid | 15.0 | 7.32 | 3,040 | 2,342 | 3 |
+
+- LLM latency was about 7.3 to 7.9 s per analysis. End-to-end is 13 to 21 s because it also fetches up to 3 site pages and live-checks 3 to 5 suggested competitor sites.
+- Real token use was 2.2k to 3.2k input and 2.3k to 2.7k output. At list price ($0.30 / $2.50) that is roughly $0.007 to $0.008 per analysis, in line with the estimate above (measured tokens, calculated cost).
+- 3 of 3 runs produced schema-valid JSON after 1 run each. One earlier run on stripe.com returned malformed JSON once; a same-provider retry was added and the re-run passed.
+- Not measured: OpenAI and Anthropic models (no keys used), and answer accuracy against ground truth. Accuracy was only spot-checked by reading the outputs: services and brand details matched each site's real content, and suggested competitors were reachable real sites. No accuracy score is claimed.
 
 ### Recommendation
 

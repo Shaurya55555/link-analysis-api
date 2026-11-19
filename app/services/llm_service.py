@@ -47,7 +47,7 @@ def _call_gemini(system: str, user: str, s: Settings, client: httpx.Client) -> L
     body = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3},
+        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3, "maxOutputTokens": 8192},
     }
     t0 = time.perf_counter()
     r = client.post(url, json=body, headers={"x-goog-api-key": s.gemini_api_key})
@@ -108,10 +108,13 @@ def generate_json(system: str, user: str, settings: Optional[Settings] = None,
             if not fn:
                 last = LLMError(f"Unknown LLM provider: {name}")
                 continue
-            try:
-                return fn(system, user, s, client)
-            except (LLMError, httpx.HTTPError) as exc:
-                last = exc
+            for _attempt in range(2):  # retry once: malformed JSON from small models is occasionally transient
+                try:
+                    return fn(system, user, s, client)
+                except (LLMError, httpx.HTTPError) as exc:
+                    last = exc
+                    if "valid JSON" not in str(exc) and not isinstance(exc, httpx.TimeoutException):
+                        break
         raise LLMError(str(last) if last else "No LLM provider configured")
     finally:
         if own:
